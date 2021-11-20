@@ -1,0 +1,21 @@
+body{
+    background-color:gainsboro;
+}
+h1{
+    background-color: gold;
+}
+.font-gold{
+    color:gold;
+}
+#unique1{
+border: 5px solid red;
+}
+#unique2{
+    border: 5px solid red;
+    }
+    #unique3{
+        border: 5px solid red;
+        }
+        #unique4{
+            border: 5px solid red;
+            }
