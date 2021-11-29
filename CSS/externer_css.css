@@ -1,0 +1,13 @@
+.h2-text{
+    color: aqua;
+    border: 1px solid blue;
+    font-style: italic;
+    font-size: 50px;
+}
+div{
+    background-color: gainsboro;
+    border: 1px solid grey;
+    font-weight: bold;
+    
+
+}
