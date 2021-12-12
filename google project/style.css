@@ -29,6 +29,12 @@ input{
     position: relative;
 
 }
+.img6{
+    /* background-color: gray; */
+    border-radius: 50px;
+    border-color: #cccccc;
+    border-width: 1px;
+}
 div{
     
     text-align: center;
@@ -51,4 +57,8 @@ div{
     left: 30%;
     top: 57%;
 }
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 
