@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown menu</title>
+</head>
+<body>
+    <form action="" method="get">
+        <textarea 
+        name="textarea" 
+        id="" 
+        cols="30" 
+        rows="10"
+        minlength="5"
+        maxlength="100"
+        required="required"
+        placeholder="Anything here."
+        ></textarea>
+
+        <div>
+            <label for="firstname">Firstname</label>
+            <input required="required" type="text" name="firstname" id="lastname"> <br>
+            <label for="lastname">Lastname</label>
+            <input required="required" type="text" name="lastname" id="lastname">
+        </div>
+        <div>
+            <label for="number">Age</label>
+            <input required="required" type="number" step="1" min="10" max="60" id="number">
+
+        </div>
+        <div>
+            <label for="date">Date of birth</label>
+            <input required="required" type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="address">Address</label> 
+            <input required="required" type="text" name="address" id="address">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input required="required" type="email" name="email" id="email">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input required="required" type="password" name="password" id="password" minlength="4" maxlength="16">
+        </div>
+        <div>
+            <label for="selected">Gender</label>
+            <select name="Gender" id="selected" class="" required="required">
+                <option value="" selected="selected" disabled="disabled">--Your gender--</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              
+            </select>
+
+        </div>
+       
+
+       
+        <button type="submit">Submit</button>
+    </form>
+    
+</body>
+</html>

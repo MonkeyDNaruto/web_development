@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms fields</title>
+</head>
+<body>
+    <form method="get" action="div.html">
+        <div>
+            <label for="firstname">First name</label>
+            <input required="required" type="text" name="firstname" id="firstname"> <br>
+            <label for="lastname">Last name</label>
+            <input required="required" type="text" name="lastname" id="lastname">
+        </div>
+        <div>
+            <label for="checkbox">Checkbox</label>
+            <input required="required" type="checkbox" name="checkbox" id="checkbox" value="1">
+        </div>
+        <div>
+            <label for="radio">Radio button</label>
+            <input required="required" type="radio" name="radio_field" value="1" id="radio">1
+            <input required="required" type="radio" name="radio_field" value="2" id="radio">2
+            <input required="required" type="radio" name="radio_field" value="3" id="radio">3
+
+        </div>
+        <div>
+            <label for="date">Date</label>
+            <input required="required" type="date" name="date" id="date">
+        </div>
+        <div>
+            <label for="hidden">Hidden</label>
+            <input required="required" type="hidden" name="hidden" value="Is_hidden" id="hidden">
+
+        </div>
+        <div>
+            <label for="number">Number</label>
+            <input required="required" type="number" name="numbers" step="0.5" min="0" max="100" id="number">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input required="required" type="password" name="password" placeholder="Password" id="password">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input required="required" type="email" name="email" placeholder="something.something@email.com" id="email">
+        </div>
+        <div>
+            <label for="file">Files upload</label>
+            <input required="required" type="file" name="file" id="file">
+        </div>
+        <div>
+            <label for="url">URL</label>
+            <input required="required" type="url" name="url" value="https://codingforeverybody.com" id="url">
+        </div>
+        <div>
+            
+            <input required="required" type="submit" value="Submit" id="submit">
+        </div>
+      
+    </form>
+    
+</body>
+</html>

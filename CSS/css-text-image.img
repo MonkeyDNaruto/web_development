@@ -1,0 +1,967 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="format-detection" content="telephone=no">
+    <script>
+        WebFontConfig = {
+            typekit: { id: 'vja0xty' },
+            google: {
+                families: ['Roboto:400,400i,500,500i,700,700i', 'Lato:400,400i,500,500i,700,700i', 'Montserrat:400,400i,500,500i,600,700,700i']
+            }
+        };
+
+        (function(d) {
+            var wf = d.createElement('script'), s = d.scripts[0];
+            wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+            wf.async = true;
+            s.parentNode.insertBefore(wf, s);
+        })(document);
+
+        (function() {
+            var e = {
+                Tabvar: -1 !== (i = window.navigator.userAgent.toLowerCase()).indexOf("windows") && -1 !== i.indexOf("touch") && -1 === i.indexOf("tabvar pc") || -1 !== i.indexOf("ipad") || -1 !== i.indexOf("android") && -1 === i.indexOf("mobile") || -1 !== i.indexOf("firefox") && -1 !== i.indexOf("tabvar") || -1 !== i.indexOf("kindle") || -1 !== i.indexOf("silk") || -1 !== i.indexOf("playbook"),
+                Mobile: -1 !== i.indexOf("windows") && -1 !== i.indexOf("phone") || -1 !== i.indexOf("iphone") || -1 !== i.indexOf("ipod") || -1 !== i.indexOf("android") && -1 !== i.indexOf("mobile") || -1 !== i.indexOf("firefox") && -1 !== i.indexOf("mobile") || -1 !== i.indexOf("blackberry")
+            };
+            var i;
+            var n = "";
+            e.Tabvar || e.Mobile ? n = "sp" : window.navigator.userAgent.indexOf("Edge") > -1 ? n = "edge" : window.navigator.userAgent.indexOf("Firefox") > -1 ? n = "firefox" : window.navigator.userAgent.indexOf("Chrome") > -1 ? n = "chrome" : ("Microsoft Internet Explorer" == navigator.appName || navigator.userAgent.match(/Trident/) || navigator.userAgent.match(/rv:11/) || void 0 !== $.browser && 1 == $.browser.msie) && (n = "ie");
+            document.addEventListener("DOMContentLoaded", function() {
+                document.body.classList.add(n)
+            })
+        })();
+    </script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="https://jw-webmagazine.com/wp-content/themes/jw-magazine/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>30 Best Anime of All Time (2021) - Japan Web Magazine</title>
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//polyfill.io' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Japan Web Magazine &raquo; Feed" href="https://jw-webmagazine.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Japan Web Magazine &raquo; Comments Feed" href="https://jw-webmagazine.com/comments/feed/" />
+<!-- jw-webmagazine.com is managing ads with Advanced Ads – https://wpadvancedads.com/ --><script>
+						advanced_ads_ready=function(){var fns=[],listener,doc=typeof document==="object"&&document,hack=doc&&doc.documentElement.doScroll,domContentLoaded="DOMContentLoaded",loaded=doc&&(hack?/^loaded|^c/:/^loaded|^i|^c/).test(doc.readyState);if(!loaded&&doc){listener=function(){doc.removeEventListener(domContentLoaded,listener);window.removeEventListener("load",listener);loaded=1;while(listener=fns.shift())listener()};doc.addEventListener(domContentLoaded,listener);window.addEventListener("load",listener)}return function(fn){loaded?setTimeout(fn,0):fns.push(fn)}}();
+						</script>
+		<link rel='stylesheet' id='wp-block-library-css'  href='https://jw-webmagazine.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='photo-feed-css'  href='https://jw-webmagazine.com/wp-content/plugins/photo-feed/assets/style.css?ver=1.1.7' type='text/css' media='all' />
+<link rel='stylesheet' id='jw-magazine-style-css'  href='https://jw-webmagazine.com/wp-content/themes/jw-magazine/style.css?ver=20201216' type='text/css' media='all' />
+<link rel='stylesheet' id='jw-magazine-common-css'  href='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/styles/common.css?ver=20201216' type='text/css' media='all' />
+<link rel='stylesheet' id='jw-magazine-destination-css'  href='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/styles/post.css?ver=20201216' type='text/css' media='all' />
+<link rel='stylesheet' id='joomdev-wpc-styles-css'  href='https://jw-webmagazine.com/wp-content/plugins/joomdev-wp-pros-cons/assets/css/styles.css?ver=2.0.9' type='text/css' media='all' />
+<link rel='stylesheet' id='simple-pagination-css-css'  href='https://jw-webmagazine.com/wp-content/plugins/simple-pagination/css/default.css?ver=2.1.7' type='text/css' media='screen' />
+<script type='text/javascript' src='https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.forEach%2CNodeList.prototype.forEach%2CIntersectionObserver%2CIntersectionObserverEntry&#038;ver=1.1' id='polyfill-js'></script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://jw-webmagazine.com/wp-json/" /><link rel="alternate" type="application/json" href="https://jw-webmagazine.com/wp-json/wp/v2/posts/240570" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jw-webmagazine.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://jw-webmagazine.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.1" />
+<link rel="canonical" href="https://jw-webmagazine.com/best-anime/" />
+<link rel='shortlink' href='https://jw-webmagazine.com/?p=240570' />
+<link rel="alternate" type="application/json+oembed" href="https://jw-webmagazine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jw-webmagazine.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&#038;format=xml" />
+
+		<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:2439958,hjsv:5};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+		
+<!-- Install this snippet AFTER the Hotjar tracking code. -->
+<script>
+var userId = your_user_id || null; // Replace your_user_id with your own if available.
+window.hj('identify', userId, {
+    // Add your own custom attributes here. Some EXAMPLES:
+    // 'Signed up': '2019—06-20Z', // Signup date in ISO-8601 format.
+    // 'Last purchase category': 'Electronics', // Send strings with quotes around them.
+    // 'Total purchases': 15, // Send numbers without quotes.
+    // 'Last purchase date': '2019-06-20Z', // Send dates in ISO-8601 format.
+    // 'Last refund date': null, // Send null when no value exists for a user.
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-103134691-1"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-103134691-1');
+</script>
+<!-- ヘッダ -->
+
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script async>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google AdWords: 980908773 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-980908773"></script>
+<script async>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-980908773');
+</script>
+
+<!-- Facebook Pixel Code -->
+<script async>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1785699978190712');
+  fbq('track', 'PageView');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K27W22G');</script>
+<!-- End Google Tag Manager -->
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/62532913/p_JWwebmagazine_336x280_right1st_24563', [[336, 280], [300, 250]], 'div-gpt-ad-1577087160679-0').addService(googletag.pubads());
+    googletag.defineSlot('/62532913/p_JWwebmagazine_336x280_right2nd_24563', [[336, 280], [300, 250]], 'div-gpt-ad-1577087187716-0').addService(googletag.pubads());
+    googletag.defineSlot('/62532913/p_JWwebmagazine_336x280_right3rd_24563', [[336, 280], [300, 250]], 'div-gpt-ad-1577087214544-0').addService(googletag.pubads());
+    googletag.pubads().disableInitialLoad();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<script type="text/javascript" src="https://cdn-fluct.sh.adingo.jp/ts/kv.js" async></script>
+<script>
+  var unitArray = [
+        "/62532913/p_JWwebmagazine_336x280_right1st_24563",
+        "/62532913/p_JWwebmagazine_336x280_right2nd_24563",
+        "/62532913/p_JWwebmagazine_336x280_right3rd_24563",
+];
+</script>
+<script>
+  googletag.cmd.push(function() {
+    fluctkvapi.setBids(function() {
+      googletag.pubads().refresh();
+    });
+  });
+</script>
+<script>
+	window.Adomik = window.Adomik || {};
+  Adomik.randomAdGroup = function() {
+    var rand = Math.random();
+    switch (false) {
+      case !(rand < 0.09): return "ad_ex" + (Math.floor(100 * rand));
+      case !(rand < 0.10): return "ad_bc";
+      default: return "ad_opt";
+    }
+  };
+  googletag.cmd.push(function() {
+    googletag.defineSlot('/62532913/p_JWwebmagazine_336x280_belowpicture_24563', [[336, 280], [300, 250]], 'div-gpt-ad-1553650304757-0')
+        .setTargeting('ad_group', Adomik.randomAdGroup())
+        .setTargeting('ad_h', (new Date).getUTCHours().toString())
+        .addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+<!-- Google structured data -->
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"NewsArticle","mainEntityOfPage":{"@type":"WebPage","@id":"https:\/\/jw-webmagazine.com\/best-anime\/"},"headline":"30 Best Anime of All Time (2021)","image":"https:\/\/jw-webmagazine.com\/wp-content\/uploads\/2020\/03\/Kimetsu-no-YaibaDemon-Slayer.jpg","datePublished":"2020-03-25T12:00:11+09:00","dateModified":"2021-12-06T17:00:57+09:00","author":{"@type":"Person","name":"yusukes"},"description":"This greatest anime list picks out 30 best anime of all time including the classic series and  the new ongoing recommendations. This best anime ranking's updated with the latest trends.","publisher":{"@type":"Organization","name":"Japan Web Magazine","logo":{"@type":"ImageObject","url":"https:\/\/jw-webmagazine.com\/wp-content\/themes\/jw-magazine\/resources\/images\/common\/logo.png"}}}</script>
+<meta property="og:updated_time" content="2021-12-06T17:00:57+09:00">
+<meta property="article:published_time" content="2020-03-25T12:00:11+09:00">
+<meta property="article:modified_time" content="2021-12-06T17:00:57+09:00">
+<!-- END Google structured data -->
+<meta name="description" content="This greatest anime list picks out 30 best anime of all time including the classic series and  the new ongoing recommendations. This best anime ranking's updated with the latest trends.">
+<meta property="og:title" content="30 Best Anime of All Time (2021)">
+<meta property="twitter:title" content="30 Best Anime of All Time (2021)">
+<meta property="og:url" content="https://jw-webmagazine.com/best-anime/">
+<meta property="og:description" content="Check the 30 greatest anime series including the latest recommendations and the top classics!">
+<meta name="twitter:description" content="Check the 30 greatest anime series including the latest recommendations and the top classics!">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer.jpg">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="post-template-default single single-post postid-240570 single-format-standard aa-prefix-webma-">
+<!-- Google Tag Manager (noscript) -->
+<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P3NXKF8"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+<!-- End Google Tag Manager (noscript) -->
+<noscript><img height="1" width="1" style="display:none" alt=""
+  src="https://www.facebook.com/tr?id=1785699978190712&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=838337339638121&autoLogAppEvents=1"></script>
+	<div id="page" class="site">
+    <header id="site-header">
+        <div class="o-container">
+            <nav class="c-navbar" id="main-nav">
+                <div class="c-navbar--left">
+                    <a href="https://jw-webmagazine.com" class="c-navbar__brand">
+                        <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/logo.png" alt="Japan Travel Guide - Japan Web Magazine">
+                    </a>                </div>
+                <div class="only-sp c-navbar__site-name"><a href="https://jw-webmagazine.com">Japan Web Magazine</a></div>
+                <button class="c-navbar__toggle only-sp" aria-label="Open navigation" name="Open navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="c-navbar--right">
+                    <div class="menu-close only-sp"></div>
+                    <div class="c-navbar--right__wrap">
+                        <button class="c-navbar__toggle active only-sp" aria-label="Open navigation" name="Open navigation">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul id = "primary-menu" class = "menu c-navbar__menu"><li id="menu-item-185004" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-185004 top-level"><a href="https://jw-webmagazine.com/destinations/">Destinations</a>
+<span class="only-sp open-sub-menu">&nbsp;</span>
+
+<ul class="sub-menu">
+	<li id="menu-item-191689" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191689"><a href="/destinations/tokyo/">Tokyo</a></li>
+	<li id="menu-item-191695" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191695"><a href="/destinations/osaka/">Osaka</a></li>
+	<li id="menu-item-191708" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191708"><a href="/destinations/kyoto/">Kyoto</a></li>
+	<li id="menu-item-191714" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191714"><a href="/destinations/mt-fuji/">Mt. Fuji</a></li>
+	<li id="menu-item-191718" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191718"><a href="/destinations/hokkaido/">Hokkaido</a></li>
+	<li id="menu-item-191722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191722"><a href="/destinations/okinawa/">Okinawa</a></li>
+	<li id="menu-item-191729" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-191729"><a href="/destinations/hiroshima/">Hiroshima</a>
+	<span class="only-sp open-sub-menu">&nbsp;</span>
+
+	<ul class="sub-menu">
+		<li id="menu-item-191736" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-191736"><a href="https://jw-webmagazine.com/destinations/">Others</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-185005" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-185005 top-level"><a href="https://jw-webmagazine.com/interests/">Interests</a>
+<span class="only-sp open-sub-menu">&nbsp;</span>
+
+<ul class="sub-menu">
+	<li id="menu-item-191505" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191505"><a href="/interests/things-to-do/">Things to Do</a></li>
+	<li id="menu-item-191514" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191514"><a href="/interests/food/">Food</a></li>
+	<li id="menu-item-191527" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191527"><a href="/interests/shopping/">Shopping</a></li>
+	<li id="menu-item-191534" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191534"><a href="/interests/accommodation/">Accommodation</a></li>
+</ul>
+</li>
+<li id="menu-item-185006" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-185006 top-level"><a href="https://jw-webmagazine.com/season/">Season</a>
+<span class="only-sp open-sub-menu">&nbsp;</span>
+
+<ul class="sub-menu">
+	<li id="menu-item-191254" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191254"><a href="/season/spring/">Spring</a></li>
+	<li id="menu-item-186642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-186642"><a href="/season/summer/">Summer</a></li>
+	<li id="menu-item-191271" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191271"><a href="/season/autumn/">Autumn</a></li>
+	<li id="menu-item-191283" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-191283"><a href="/season/winter/">Winter</a></li>
+</ul>
+</li>
+<li id="menu-item-259140" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-259140 top-level"><a href="https://jw-webmagazine.com/living/">Living</a>
+<span class="only-sp open-sub-menu">&nbsp;</span>
+
+<ul class="sub-menu">
+	<li id="menu-item-259144" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259144"><a href="https://jw-webmagazine.com/living/tips-for-living/">Tips for Living</a></li>
+	<li id="menu-item-259143" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259143"><a href="https://jw-webmagazine.com/living/apartment/">Apartment</a></li>
+	<li id="menu-item-259142" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259142"><a href="https://jw-webmagazine.com/living/medical-services/">Medical Services</a></li>
+	<li id="menu-item-259141" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-259141"><a href="https://jw-webmagazine.com/living/internet/">Internet</a></li>
+</ul>
+</li>
+<li id="menu-item-234134" class="menu-scroll menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-234134 top-level"><a href="/#travel-tips">Travel Tips</a>
+<span class="only-sp open-sub-menu">&nbsp;</span>
+
+<ul class="sub-menu">
+	<li id="menu-item-242611" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-242611"><a href="https://jw-webmagazine.com/travel-alerts/">Travel Alerts</a></li>
+	<li id="menu-item-234135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234135"><a href="https://jw-webmagazine.com/cultural-tips/">Cultural Tips</a></li>
+	<li id="menu-item-234136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234136"><a href="https://jw-webmagazine.com/itinerary/">Itinerary</a></li>
+	<li id="menu-item-234137" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234137"><a href="https://jw-webmagazine.com/transportation/">Transportation</a></li>
+	<li id="menu-item-234256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234256"><a href="https://jw-webmagazine.com/japanese/">Japanese</a></li>
+	<li id="menu-item-234138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234138"><a href="https://jw-webmagazine.com/currency/">Currency</a></li>
+	<li id="menu-item-234139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-234139"><a href="https://jw-webmagazine.com/wifi/">Pocket WiFi</a></li>
+</ul>
+</li>
+</ul>                        <div class="ml-auto d-flex">
+                            <form action="https://jw-webmagazine.com/advance-search" class="search-freeword c-navbar__form">
+                                <button class="c-navbar__form__button">Submit</button>
+                                <input type="text" placeholder="Search free word" aria-label="Search free word" autocomplete="off" name="key" class="c-navbar__form__input search-key">
+                                <ul class="search-suggest"></ul>
+                            </form>
+
+                            <ul class = 'c-navbar__social'> <li><a href='https://www.facebook.com/Japan-Wireless-469588096424829' target='_blank' title='Facebook' class='c-navbar__social__facebook' rel='noopener'>
+            <img src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_facebook.png' alt='Facebook'></a></li><li><a href='https://twitter.com/japanwireless' target='_blank' title='Twitter' class='c-navbar__social__twitter' rel='noopener'>
+            <img src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_twitter.png' alt='twitter'></a></li><li><a href='https://www.instagram.com/japanwirelesstokyo/' target='_blank' title='Instagram' class='c-navbar__social__instagram' rel='noopener'>
+            <img src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_instagram.png' alt='instagram'></a></li></ul>                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+	<div id="content" class="site-content">
+    <div id="site-main">
+        <div class="o-container">
+            <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="c-breadcrumb"><li itemprop='itemListElement' itemscope
+                        itemtype='http://schema.org/ListItem'>
+                        <a itemprop='item' href='https://jw-webmagazine.com' >
+                            <span itemprop='name'>Home</span></a>
+                        <meta itemprop='position' content='1' />
+                    </li><li itemprop='itemListElement' itemscope
+                        itemtype='http://schema.org/ListItem'>
+                        <a itemprop='item' href='https://jw-webmagazine.com/cultural-tips/' >
+                            <span itemprop='name'>Cultural Tips</span></a>
+                        <meta itemprop='position' content='2' />
+                    </li></ul><h1 class="c-page__page-title">30 Best Anime of All Time (2021)</h1>    <p class="c-page__sub-title">Check the 30 greatest anime series including the latest recommendations and the top classics!</p>
+    <div class="c-post__featured post-single">
+        <div class="c-post__featured__wrap">
+            <img width="1646" height="922" src="https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="Tanjiro Kamado from Kimetsu no Yaiba:Demon Slayer" loading="lazy" srcset="https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer.jpg 1646w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer-300x168.jpg 300w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer-768x430.jpg 768w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Kimetsu-no-YaibaDemon-Slayer-660x370.jpg 660w" sizes="(max-width: 1646px) 100vw, 1646px" />        </div>
+        <div class="copyright"><span style="font-size: 10pt">©吾峠呼世晴／集英社・アニプレックス・ufotable</span></div>    </div>
+
+
+<div class="wrapper">
+    <main class="c-main">
+    <ul class="c-post__meta d-flex post-detail">
+        <li class="author">
+            <a class="author_avatar" href="https://jw-webmagazine.com/author/yusukes/">
+                <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/assets/images/gradient.gif" data-src="https://jw-webmagazine.com/wp-content/uploads/2019/07/1_YM22iFIayNs5hvyno-r_0g-150x150.jpg" alt="Yusuke-s">
+            </a>
+            <div class="right">
+                <a href="https://jw-webmagazine.com/author/yusukes/">
+                    <span>Yusuke-s</span>
+                </a>
+                <div class="time">
+                    <time datetime="2021-12-06T17:00:57+09:00" class="entry-date date updated">Update: Dec 06, 2021</time>
+                </div>
+            </div>
+
+        </li>
+    </ul>
+    <div class="c-post__content">
+        <div class="c-post__share__wrap">
+            <ul class='c-post__share c-post__share--side'><li><div class='like_post_btn ' data-post='240570' title='Like this post'>
+            <span class='clap-icon'></span>
+            <span class='like_status'>+127</span>
+            <span class='like_count'>145</span>
+            <div data-id='particles' class='particles-container particles'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>            
+            <div data-id='particles-2' class='particles-container particles-2'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>            
+            <div data-id='particles-3' class='particles-container particles-3'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>
+	    </div></li><li>
+			<a class='share_btn' onclick="window.open('http://www.facebook.com/sharer.php?u=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&quote=Check+the+30+greatest+anime+series+including+the+latest+recommendations+and+the+top+classics%21',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Facebook"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_facebook_2.png" alt=""></a>
+    	</li><li><a class='share_btn' onclick="window.open('https://twitter.com/share?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;text=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Twitter"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_twitter_2.png" alt=""></a></li><li>
+			<a class='share_btn' onclick="window.open('http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;media=https%3A%2F%2Fjw-webmagazine.com%2Fwp-content%2Fuploads%2F2020%2F03%2FKimetsu-no-YaibaDemon-Slayer.jpg&amp;description=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Pinterest">
+        	<img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_pinterest.png" alt="">
+        	</a>
+        </li><li><a class='share_btn' onclick="window.open('http://reddit.com/submit?url= https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;title=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Reddit"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_reddit.png" alt=""></a></li></ul>        </div>
+        <div class="c-post__detail">
+            <p>There are numerous animations produced and released all over the world every year. Here, anime, which is the Japanese term originating in Japan and especially means the animations made in Japan.</p>
+<p>It is said that the first Japanese animation was made and released in 1917. Speaking of the earliest famous anime in Japan, Astro Boy (a.k.a. Mighty Atom) was released in 1963 as the first series aired on TV. Around hundreds of new anime are aired on TV and distributed to the movie streaming platforms and come to the screens every year, and the number of must-watch titles is going on increasing year by year.</p>
+<p>The industry of anime has prospered substantially in Japan partly because the country has other Japanese pop cultures such as manga, video games and light novels. Some popular anime are&nbsp;adaptations of manga,&nbsp;video games, light novels and other media. And, anime has&nbsp;flourished worldwide so rapidly since anyone can access the Japanese animations with English dubs and subtitles.</p>
+<p>Here are 30 best anime series of all time including both the classic anime franchises and the brand new series. This greatest anime list will help beginners to find which anime to start watching with in the world or anime fans to decide the next one to try. Otherwise, check the best anime by freak&rsquo;s standards.</p>
+<p>This anime list focuses on TV anime series which Japanese call &ldquo;anime&rdquo;, so <a href="https://jw-webmagazine.com/best-anime-movies/" target="_self">anime movies</a> such as Studio Ghibli films or Makoto Shinkai&rsquo;s animations are excluded.</p>
+<p>&#9661;Check these best anime recommendations perfect for your level!&#9661;</p>
+<p><a href="https://bit.ly/3DmscUB" target="_blank"><img loading="lazy" class="alignnone wp-image-261277" src="https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Beginners.jpg" alt="For Beginners" width="600" height="210" srcset="https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Beginners.jpg 1254w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Beginners-300x105.jpg 300w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Beginners-660x231.jpg 660w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Beginners-768x268.jpg 768w" sizes="(max-width: 600px) 100vw, 600px"></a></p>
+<p><a href="https://bit.ly/3Io7wzi" target="_blank"><img loading="lazy" class="alignnone wp-image-261278" src="https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Die-Hard-Fans.jpg" alt="For Die-Hard Fans" width="600" height="208" srcset="https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Die-Hard-Fans.jpg 1256w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Die-Hard-Fans-300x104.jpg 300w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Die-Hard-Fans-660x229.jpg 660w, https://jw-webmagazine.com/wp-content/uploads/2020/03/For-Die-Hard-Fans-768x267.jpg 768w" sizes="(max-width: 600px) 100vw, 600px"></a></p>
+<p><a href="https://bit.ly/3DrrANp" target="_blank"><img loading="lazy" class="alignnone wp-image-261276" src="https://jw-webmagazine.com/wp-content/uploads/2020/03/Family-Friendly.jpg" alt="Family-Friendly" width="600" height="208" srcset="https://jw-webmagazine.com/wp-content/uploads/2020/03/Family-Friendly.jpg 1258w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Family-Friendly-300x104.jpg 300w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Family-Friendly-660x229.jpg 660w, https://jw-webmagazine.com/wp-content/uploads/2020/03/Family-Friendly-768x266.jpg 768w" sizes="(max-width: 600px) 100vw, 600px"></a></p>
+<p>It is not easy to narrow down to only 30 anime and rank them, and there are many others that are worth watching outside this recommendations list, of course.</p>
+<p>Let&rsquo;s start a countdown!</p>
+<h2>30.&nbsp;Fate</h2>
+<p><iframe loading="lazy" title="&#12300;Fate/stay night&#12301;PV" width="640" height="360" src="https://www.youtube.com/embed/wsDoVolYo_g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Fate/stay night</strong>, based on the game for Windows, was released as the first season of the Fate Series in 2006, followed by the past story <strong>Fate/Zero</strong> in 2011-2012. The main character Shiro Emiya survives the Holy Grail War with his servant Saber.</p>
+<p>From 2014 to 2015, <strong>Fate/stay night: Unlimited Blade Works</strong>, which focuses on the other route of Fate/stay night, aired on TV. The 3rd route titled <strong>Fate/stay night: Heaven&rsquo;s Feel</strong> was released with 3 movies in 2017, 2019 and 2020. The following series <strong>Fate/Grand Order</strong> started in 2016, consisting of the later spin-offs such as <strong>Absolute Demonic Battlefront: Babylonia</strong> and <strong>Grand Temple of Time: Solomon</strong>.</p>
+<p>Air Dates: from 2006<br>
+Genre: Fantasy, Action<br>
+Recommended for Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80067250" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2zJoGsj" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dNLjui" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>29. KonoSuba: God&rsquo;s Blessing on this Wonderful World!</h2>
+<p><iframe loading="lazy" title="&#12300;&#12371;&#12398;&#32032;&#26228;&#12425;&#12375;&#12356;&#19990;&#30028;&#12395;&#31069;&#31119;&#12434;&#65281;&#12301;&#65328;&#65334;&#31532;&#19968;&#24382;" width="640" height="360" src="https://www.youtube.com/embed/MG9tWDy6Hmc?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>KonoSuba: God&rsquo;s Blessing on this Wonderful World! (&#12371;&#12398;&#32032;&#26228;&#12425;&#12375;&#12356;&#19990;&#30028;&#12395;&#31069;&#31119;&#12434;!)</strong> is a good comedy Isekai anime, based on the light novel written by Natsume Akatsuki. The first season of KonoSuba was released in 2016 and the second one in 2017. The story starts after a teenager Kazuma died in an accident and was sent to another world with the goddess Aqua.</p>
+<p>The new episode was made into a movie with the title of <strong>KonoSuba: God&rsquo;s Blessing on this Wonderful World! Legend of Crimson (&#12371;&#12398;&#32032;&#26228;&#12425;&#12375;&#12356;&#19990;&#30028;&#12395;&#31069;&#31119;&#12434;&#65281;&#32005;&#20253;&#35500;)</strong>, focusing on the 14-year-old archwizard Megumin.</p>
+<p>Air Dates: from 2016<br>
+Genre: Isekai, Comedy<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80131674" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3bGFn4P" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>28. Inuyasha</h2>
+<p><iframe loading="lazy" title="Inuyasha: The Final Act Official Trailer - Available March 2013" width="640" height="360" src="https://www.youtube.com/embed/BcAuqVLCsZE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Inuyasha (&#29356;&#22812;&#21449;)</strong> is a popular Manga published by&nbsp;Weekly Shonen Sunday with 56 volumes totally, and adapted into an anime. The anime series mainly consists two parts: the first part based on the manga vol.1-36 and the second one <strong>(Inuyasha: The Final Act)</strong> based on the rest of the original manga story. A 15 years old girl Kagome transported to another world in the past meets the half dog-demon named Inuyasha. Kagome and Inuyasya with their party travel to complete&nbsp;the Shikon Jewel, which enables someone&rsquo;s wish to be realized.</p>
+<p>Air Dates: from 2000<br>
+Genre: Adventure, Fantasy,&nbsp;Action<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/70204995" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3cJZ9xB" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3cJ9Ksv" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>27. Tokyo Revengers</h2>
+<p><iframe loading="lazy" title="Tokyo Revengers | Official Trailer" width="640" height="360" src="https://www.youtube.com/embed/RnghCw_LbdA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Tokyo Revengers (&#26481;&#20140;&#21325;&#12522;&#12505;&#12531;&#12472;&#12515;&#12540;&#12474;)</strong> is a popular recent anime series, adapted from the current manga series serialized on Weekly Shonen Magazine since 2017. The first season of the anime adaptation was broadcasted with 24 episodes, broadly welcomed by manga and anime fans. A protagonist Takemichi Hanagaki, a unsuccessful 26 years old man, suddenly travels back in time 12 years. To save his ex-girlfriend who dies in an accident in the present time, he tries to change the past as a Yanki junior high schooler.</p>
+<p>Air Dates: from 2021<br>
+Genre: Action, Science Fiction, Thriller<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/81442520" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3igG0YK" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>26. Cowboy Bebop</h2>
+<p><iframe loading="lazy" title="Cowboy Bebop Remastered Sessions Available on Blu-Ray" width="640" height="360" src="https://www.youtube.com/embed/W65aIZhXL3M?start=5&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Between 1998 and 1999, <strong>Cowboy Bebop (&#12459;&#12454;&#12508;&#12540;&#12452;&#12499;&#12496;&#12483;&#12503;)</strong>, which is now one of the most popular Japanese anime among foreign people, was aired in Japan with 26 episodes. The setting of&nbsp;Cowboy Bebop is the space in 2071 where the bounty hunter&nbsp;Spike Spiegel and his partner&nbsp;Jet Black chase criminals.&nbsp;The anime film&nbsp;<strong>Cowboy Bebop: Knockin&rsquo; on Heaven&rsquo;s Door (&#12459;&#12454;&#12508;&#12540;&#12452;&#12499;&#12496;&#12483;&#12503; &#22825;&#22269;&#12398;&#25161;)</strong> was released in 2001.</p>
+<p>Air Dates: 1998-1999<br>
+Genre: Action, Science Fiction<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80001305" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LE7ZB2" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2WEOhLO" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="60b4861c884af" data-code="eyJ0aXRsZSI6IjUgQmVzdCBBbmltZSBsaWtlIENvd2JveSBCZWJvcCIsImRlc2MiOiI1IFBvcHVsYXIgQW5pbWUgU2VyaWVzIFNpbWlsYXIgdG8gQ293Ym95IEJlYm9wIiwibGluayI6Imh0dHBzOlwvXC9qdy13ZWJtYWdhemluZS5jb21cL2Jlc3QtYW5pbWUtbGlrZS1jb3dib3ktYmVib3BcLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMTJcL0Jlc3QtQW5pbWUtbGlrZS1Db3dib3ktQmVib3AtMjY3eDIwMC5qcGciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="60b4861c884af"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Anime like Cowboy Bebop" href="https://jw-webmagazine.com/best-anime-like-cowboy-bebop/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Anime like Cowboy Bebop</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Popular Anime Series Similar to Cowboy Bebop</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Anime like Cowboy Bebop" href="https://jw-webmagazine.com/best-anime-like-cowboy-bebop/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/12/Best-Anime-like-Cowboy-Bebop-267x200.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/12/Best-Anime-like-Cowboy-Bebop-267x200.jpg" alt="5 Best Anime like Cowboy Bebop" style="display: none"></a></div>
+</div>
+<h2>25. My Hero Academia</h2>
+<p><iframe loading="lazy" title="5&#26399;&#21046;&#20316;&#27770;&#23450;!&#12302;&#20693;&#12398;&#12498;&#12540;&#12525;&#12540;&#12450;&#12459;&#12487;&#12511;&#12450;&#12303;&#12498;&#12525;&#12450;&#12459;4&#26399;PV&#31532;5&#24382;&#12300;&#12498;&#12540;&#12525;&#12540;&#12452;&#12531;&#12479;&#12540;&#12531;&#32232;&#12463;&#12521;&#12452;&#12510;&#12483;&#12463;&#12473;&#12301;&#65295;&#21531;&#12398;&#12498;&#12540;&#12525;&#12540;&#12395;&#12394;&#12427;!&#65295;OP&#12486;&#12540;&#12510;&#12300;&#12509;&#12521;&#12522;&#12473;&#12301;BLUE ENCOUNT" width="640" height="360" src="https://www.youtube.com/embed/Idbujg6WMHY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>My Hero Academia (&#20693;&#12398;&#12498;&#12540;&#12525;&#12540;&#12450;&#12459;&#12487;&#12511;&#12450;)</strong> is one of the most popular ongoing anime while the original manga has been published on the Weekly Shonen Jump since 2014. A young boy Izuku Midoriya and other Heros fights the Villains using their superpowers Quirks.&nbsp;My Hero Academia is also popular among international anime fans since the touch and atmosphere in the anime look like an American Superhero comic rather than Japanese anime.</p>
+<p>Air Dates: from 2016<br>
+Genre: Action, Fantasy<br>
+Recommended for&nbsp;Beginners</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80135674" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3cFOlR2" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2Z9tgdY" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="60618bc3d0f9e" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBNeSBIZXJvIEFjYWRlbWlhIiwiZGVzYyI6IjUgUG9wdWxhciBNYW5nYSBhbmQgQW5pbWUgU2VyaWVzIFNpbWlsYXIgdG8gTXkgSGVybyBBY2FkZW1pYSIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LW1hbmdhLWFuZC1hbmltZS1saWtlLW15LWhlcm8tYWNhZGVtaWFcLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMTJcL015LUhlcm8tQWNhZGVtaWEtVm9sLjEtMy0zMDB4MTU2LmpwZyIsInJlbCI6IiJ9">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="60618bc3d0f9e"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like My Hero Academia" href="https://jw-webmagazine.com/best-manga-and-anime-like-my-hero-academia/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like My Hero Academia</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Popular Manga and Anime Series Similar to My Hero Academia</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like My Hero Academia" href="https://jw-webmagazine.com/best-manga-and-anime-like-my-hero-academia/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/12/My-Hero-Academia-Vol.1-3-300x156.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/12/My-Hero-Academia-Vol.1-3-300x156.jpg" alt="5 Best Manga and Anime like My Hero Academia" style="display: none"></a></div>
+</div>
+<h2>24. Jujutsu Kaisen</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12302;&#21610;&#34899;&#24315;&#25126;&#12303;PV&#31532;1&#24382;" width="640" height="360" src="https://www.youtube.com/embed/RIyb52EMx8c?start=12&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Jujutsu Kaisen (&#21610;&#34899;&#24315;&#25126;)</strong> has been one of the most popular manga and anime series since the manga series started its serialization on Weekly Shonen Jump in 2018. The first season of the anime adaptation, produced by the modern Japanese anime studio Mappa, aired with 24 episodes in 2020. In the end of 2021, the first anime movie <strong>Jujutsu Kaisen 0 (&#21127;&#22580;&#29256; &#21610;&#34899;&#24315;&#25126; 0)</strong> will be released, based on the volume 0 of the manga series.</p>
+<p>Air Dates: from 2020<br>
+Genre: Dark Fantasy, Action<br>
+Recommended for Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/81278456" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3xonAu6" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>23. Steins;Gate</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12300;&#12471;&#12517;&#12479;&#12452;&#12531;&#12474;&#12539;&#12466;&#12540;&#12488; &#12476;&#12525;&#12301;PV&#31532;1&#24382;" width="640" height="360" src="https://www.youtube.com/embed/xgOz7832pt0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Quite a few anime lovers look on <strong>Steins;Gate (&#12471;&#12517;&#12479;&#12452;&#12531;&#12474;&#12539;&#12466;&#12540;&#12488;)</strong> as the best anime in recent years.&nbsp;The sci-fi anime&rsquo;s 24 episodes were aired on TV in 2011, followed by <strong>Steins;Gate 0 (&#12471;&#12517;&#12479;&#12452;&#12531;&#12474;&#12539;&#12466;&#12540;&#12488; &#12476;&#12525;)</strong>, the continuation of the story (but the timeline is past), in 2018. The main character Rintaro Okabe and other&nbsp;Future Gadget Laboratory members try to invent a kind of time machine, and the anime is known for its time loop plot. Many fans of&nbsp;Steins;Gate visit the town of the setting: Akihabara, Tokyo.</p>
+<p>Air Dates: 2011-2018<br>
+Genre: Science Fiction, Time loop<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80005874" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2Th9Ks3" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2Ti8tB7" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>22.&nbsp;Tokyo Ghoul</h2>
+<p><iframe loading="lazy" title="&#12300;&#26481;&#20140;&#21936;&#31278;&radic;A&#12301;&#65332;&#65334;&#12450;&#12491;&#12513;&#30058;&#23459;CM" width="640" height="360" src="https://www.youtube.com/embed/huP8Di1rbS0?start=7&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The popular dark fantasy manga&nbsp;<strong>Tokyo Ghoul (&#26481;&#20140;&#21936;&#31278;&#12488;&#12540;&#12461;&#12519;&#12540;&#12464;&#12540;&#12523;)</strong>, published on the Weekly Young Jump in 2011-2014, was adapted into an anime from 2014. And, the sequel title <strong>Tokyo Ghoul:re (&#26481;&#20140;&#21936;&#31278;&#12488;&#12540;&#12461;&#12519;&#12540;&#12464;&#12540;&#12523;&#65306;re)</strong> was aired as the second half of the anime&nbsp;in 2018. The anime focuses on the theme of Ghouls, which live in the human society looking like a normal human. However, the ghouls subsist on human flesh as food.</p>
+<p>Air Dates: 2014-2018<br>
+Genre: Dark Fantasy<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80023687" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3cCOq86" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3g2a9Z4" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="605180b28d438" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBUb2t5byBHaG91bCIsImRlc2MiOiI1IFBvcHVsYXIgTWFuZ2EgYW5kIEFuaW1lIFNlcmllcyBTaW1pbGFyIHRvIFRva3lvIEdob3VsIiwibGluayI6Imh0dHBzOlwvXC9qdy13ZWJtYWdhemluZS5jb21cL2Jlc3QtbWFuZ2EtYW5kLWFuaW1lLWxpa2UtdG9reW8tZ2hvdWxcLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMTJcL01hbmdhLW9mLVRva3lvLUdob3VsLTMwMHgxNTYuanBnIiwicmVsIjoiIn0=">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="605180b28d438"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Tokyo Ghoul" href="https://jw-webmagazine.com/best-manga-and-anime-like-tokyo-ghoul/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Tokyo Ghoul</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Popular Manga and Anime Series Similar to Tokyo Ghoul</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Tokyo Ghoul" href="https://jw-webmagazine.com/best-manga-and-anime-like-tokyo-ghoul/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/12/Manga-of-Tokyo-Ghoul-300x156.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/12/Manga-of-Tokyo-Ghoul-300x156.jpg" alt="5 Best Manga and Anime like Tokyo Ghoul" style="display: none"></a></div>
+</div>
+<h2>21. OreGairu:&nbsp;My Teen Romantic Comedy SNAFU</h2>
+<p><iframe loading="lazy" title="&#12300;&#12420;&#12399;&#12426;&#20474;&#12398;&#38738;&#26149;&#12521;&#12502;&#12467;&#12513;&#12399;&#12414;&#12385;&#12364;&#12387;&#12390;&#12356;&#12427;&#12290;&#23436;&#12301;7&#26376;&#20844;&#38283;&#21578;&#30693;PV" width="640" height="360" src="https://www.youtube.com/embed/ybQaaUETmfo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>My Teen Romantic Comedy SNAFU&nbsp;(&#12420;&#12399;&#12426;&#20474;&#12398;&#38738;&#26149;&#12521;&#12502;&#12467;&#12513;&#12399;&#12414;&#12385;&#12364;&#12387;&#12390;&#12356;&#12427;&#12290;)</strong> , which is also known as just <strong>OreGairu</strong> or <strong>My Youth Romantic Comedy Is Wrong, As I Expected</strong>, is a popular modern anime series with the genre of slice of life (the setting is based on dailly life). The slice-of-life anime is made into from the light novel that completed with the 17th volume in 2019. The cynical and pessimistic character Hachiman Hikigaya starts offering help and advice to other students in the school service club with two heroines: Yukino Yukinoshita and Yui Yuigahama.</p>
+<p>The anime series was completed with the final season <strong>My Teen Romantic Comedy SNAFU Fin (&#12420;&#12399;&#12426;&#20474;&#12398;&#38738;&#26149;&#12521;&#12502;&#12467;&#12513;&#12399;&#12414;&#12385;&#12364;&#12387;&#12390;&#12356;&#12427;&#12290;&#23436;) </strong>in 2020.</p>
+<p>Air Dates: 2013-2020<br>
+Genre: Slice of life, Romance, Comedy<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://amzn.to/3bG2iNM" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dTqXQj" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>20. The Melancholy of Haruhi&nbsp;Suzumiya</h2>
+<p><iframe loading="lazy" title="&#12300;&#28092;&#23470;&#12495;&#12523;&#12498;&#12398;&#28040;&#22833;&#12301;&#21127;&#22580;&#29256;&#20104;&#21578;&#32232;" width="640" height="360" src="https://www.youtube.com/embed/eHKyNQopYXo?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The slice-of-life anime <strong>The Melancholy of Haruhi Suzumiya (&#28092;&#23470;&#12495;&#12523;&#12498;&#12398;&#24962;&#39729;)</strong> is one of the best anime after 2000s. It is initially published as a light novel in 2003, which was adapted into anime in 2006. Before releasing the anime, there had been already a large number of fans of the light novel. The first season of the anime never bored them by broadcasting the stories out of order, which were not chronological.</p>
+<p>The anime represent the daily life of SOS Brigade which is the school club established by the main heroine Haruhi Suzumiya. But, she is not just a human&hellip;</p>
+<p>Air Dates: 2006-2009<br>
+Genre: Sekaikei, Slice of life, Comedy, Science Fiction,&nbsp;Time loop<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80132288" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2WEQ8Ag" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2WE7Rba" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>19. Detective Conan</h2>
+<p><iframe loading="lazy" title="&#21127;&#22580;&#29256;&#12302;&#21517;&#25506;&#20597;&#12467;&#12490;&#12531; &#32203;&#33394;&#12398;&#24382;&#20024;&#12303;&#20104;&#21578;&#12304;&#36817;&#26085;&#20844;&#38283;&#12305;" width="640" height="360" src="https://www.youtube.com/embed/1XWZQxH7MXM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Detective Conan (&#21517;&#25506;&#20597;&#12467;&#12490;&#12531;), which is also known as Case Closed, is a popular ongoing detective anime while the original manga has been published on the Weekly Shonen Sunday since 1994. The high school detective Shinichi Kudo is transformed into a kid by a poison named&nbsp;APTX-4869, and he identifies himself as Conan Edogawa to hide his true identity from the opposite Black Organization.</p>
+<p>New anime movies are regularly hit the big screen. Detective Conan is the mystery anime that both adults and children can enjoy watching.</p>
+<p>Air Dates: from 1996<br>
+Genre: Mystery<br>
+Recommended for&nbsp;Beginners</p>
+<p>&#9654;&#65038;<a href="https://amzn.to/2z5CgGc" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/367NLcx" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>18.&nbsp;Laid-Back Camp</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12300;&#12422;&#12427;&#12461;&#12515;&#12531;&#9651;&#12301;&#20104;&#21578;&#32232;&#26144;&#20687;" width="640" height="360" src="https://www.youtube.com/embed/vKZHnNF-v_Y?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Laid-Back Capm (&#12422;&#12427;&#12365;&#12419;&#12435;&#9651;)</strong>, which is known as Yurukyan in Japanese, was aired on TV in 2018, which is now one of the most popular modern anime in these several years. The anime and manga are ongoing, and the spin-off <strong>Room Camp (&#12408;&#12420;&#12461;&#12515;&#12531;&#9651;)</strong> with the short stories are aired on TV in 2020. In 2021, the second season of the anime series followed them.</p>
+<p>The five high school girls including Rin and Nadeshiko, who have each unique personality, purely enjoy camping around Mt.Fuji. The characters visit the camping sites that are inspired by the real places in Japan where many fans go camping after broadcasting the first season.</p>
+<p>Air Dates: from 2018<br>
+Genre: Slice of life, Comedy<br>
+Recommended for Fans</p>
+<p>&#9654;&#65038;<a href="https://www.crunchyroll.com/laid-back-camp" rel="nofollow" target="_blank">Watch on Crunchyroll!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LEblEo" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>17.&nbsp;Violet Evergarden</h2>
+<p><iframe loading="lazy" title="5&#20998;&#12391;&#20998;&#12363;&#12427;&#12450;&#12491;&#12513;&#12302;&#12532;&#12449;&#12452;&#12458;&#12524;&#12483;&#12488;&#12539;&#12456;&#12532;&#12449;&#12540;&#12460;&#12540;&#12487;&#12531;&#12303;&#31532;1&#22238;" width="640" height="360" src="https://www.youtube.com/embed/OLQs_wqFR18?start=25&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The famous Japanese animation studio Kyoto Animation released the quality anime <strong>Violet Evergarden (&#12532;&#12449;&#12452;&#12458;&#12524;&#12483;&#12488;&#12539;&#12456;&#12532;&#12449;&#12540;&#12460;&#12540;&#12487;&#12531;)</strong> in 2018, which is based on the light novel with 3 volumes. The anime movie <strong>Violet Evergarden: Eternity and the Auto Memory Doll (&#12532;&#12449;&#12452;&#12458;&#12524;&#12483;&#12488;&#12539;&#12456;&#12532;&#12449;&#12540;&#12460;&#12540;&#12487;&#12531; &#22806;&#20253; &ndash; &#27704;&#36960;&#12392;&#33258;&#21205;&#25163;&#35352;&#20154;&#24418; -)</strong> was released in 2019 after the TV anime series, and the brand new story <strong>Violet Evergarden the Movie (&#21127;&#22580;&#29256; &#12532;&#12449;&#12452;&#12458;&#12524;&#12483;&#12488;&#12539;&#12456;&#12532;&#12449;&#12540;&#12460;&#12540;&#12487;&#12531;)</strong> followed the stories as a film in April, 2020.</p>
+<p>The life of the girl Violet who works writing for others as Auto Memory Dolls is depicted with the beautifully-drawn pictures in this anime.</p>
+<p>Air Dates:&nbsp;from 2018<br>
+Genre: Drama<br>
+Recommended for Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80182123" rel="nofollow" target="_blank">Watch on Netflix!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="61357aa987d49" data-code="eyJ0aXRsZSI6IjUgQmVzdCBBbmltZSBTZXJpZXMgYW5kIEFuaW1lIGxpa2UgVmlvbGV0IEV2ZXJnYXJkZW4iLCJkZXNjIjoiNSBNb3N0IFJlY29tbWVuZGVkIEFuaW1lIFNlcmllcyBhbmQgQW5pbWUgTW92aWVzIGxpa2UgVmlvbGV0IEV2ZXJnYXJkZW4iLCJsaW5rIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvYmVzdC1hbmltZS1saWtlLXZpb2xldC1ldmVyZ2FyZGVuXC8iLCJpbWFnZSI6Imh0dHBzOlwvXC9qdy13ZWJtYWdhemluZS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjFcLzA3XC9WaW9sZXQtRXZlcmdhcmRlbi0zMDB4MTkzLmpwZyIsInJlbCI6IiJ9">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="61357aa987d49"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Anime Series and Anime like Violet Evergarden" href="https://amzn.to/38GYUDd" target="_blank"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Anime Series and Anime like Violet Evergarden</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Anime Series and Anime Movies like Violet Evergarden</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Anime Series and Anime like Violet Evergarden" href="https://amzn.to/38GYUDd" target="_blank" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2021/07/Violet-Evergarden-300x193.jpg)"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2021/07/Violet-Evergarden-300x193.jpg" alt="5 Best Anime Series and Anime like Violet Evergarden" style="display: none"></a></div>
+</div>
+<h2>16.&nbsp;Attack on Titan</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12300;&#36914;&#25731;&#12398;&#24040;&#20154;&#12301;Season 3 Part.2 PV" width="640" height="360" src="https://www.youtube.com/embed/hKHepjfj5Tw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>As one of the best action anime in recent years,&nbsp;<strong>Attack on Titan (&#36914;&#25731;&#12398;&#24040;&#20154;)</strong> should be listed. It was originally released as a manga in 2009, and the first season of the anime adaption was aired in 2013. In the story, humanity stands on the edge of extinction for being attacked by the titans. The main characters Eren Yeager and Mikasa Ackerman with the other Survey Corps members battle against the titans.</p>
+<p>The story of the manga series came to the end in April, 2021, and the season 4 (the final season) of the anime series started from winter in 2020.</p>
+<p>Air Dates: 2013-2022<br>
+Genre: Action, Dark Fantasy<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/70299043" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2Xd6tLQ" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2X82Wyg" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5fcda8d6ecd04" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBBdHRhY2sgb24gVGl0YW4iLCJkZXNjIjoiNSBNb3N0IFJlY29tbWVuZGVkIE1hbmdhIGFuZCBBbmltZSBTZXJpZXMgU2ltaWxhciB0byBBdHRhY2sgb24gVGl0YW4iLCJsaW5rIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvYmVzdC1tYW5nYS1hbmQtYW5pbWUtbGlrZS1hdHRhY2stb24tdGl0YW5cLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDlcL0F0dGFjay1vbi1UaXRhbi1tYW5nYS0zMDB4MTUwLmpwZyIsInJlbCI6IiJ9">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5fcda8d6ecd04"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Attack on Titan" href="https://jw-webmagazine.com/best-manga-and-anime-like-attack-on-titan/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Attack on Titan</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Manga and Anime Series Similar to Attack on Titan</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Attack on Titan" href="https://jw-webmagazine.com/best-manga-and-anime-like-attack-on-titan/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/09/Attack-on-Titan-manga-300x150.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Attack-on-Titan-manga-300x150.jpg" alt="5 Best Manga and Anime like Attack on Titan" style="display: none"></a></div>
+</div>
+<h2>15. Fullmetal Alchemist</h2>
+<p><iframe loading="lazy" title="&#12304;2019.4.3&#30330;&#22770;&#12305;&#37628;&#12398;&#37676;&#37329;&#34899;&#24107; FULLMETAL ALCHEMIST Blu-ray Disc Box" width="640" height="360" src="https://www.youtube.com/embed/1ac3_YdSSy0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Fullmetal Alchemist (&#37628;&#12398;&#37676;&#37329;&#34899;&#24107;)</strong>, which is abbreviated to Hagaren in Japanese, is a well-known Japanese sci-fi anime worldwide. This anime is divided into two different anime:&nbsp;<strong>Fullmetal Alchemist</strong> and&nbsp;<strong>Fullmetal Alchemist&nbsp;Brotherhood</strong>. The former Fullmetal Alchemist was broadcasted before the manga series did not finish the story, which means its story is different from the original one. On the other hand, the manga&rsquo;s story is truly depicted in the latter&nbsp;Fullmetal Alchemist&nbsp;Brotherhood.</p>
+<p>The brother Edward and Alphonse loses a part or the whole of their body by violating a taboo, and they start traveling to find the way to retrieve their bodies.</p>
+<p>Air Dates:&nbsp;2003-2010<br>
+Genre:&nbsp;Adventure, Science Fiction, Dark Fantasy<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/70204981" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2WGOSwL" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/368ic28" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5f7adc40f0593" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBGdWxsbWV0YWwgQWxjaGVtaXN0IiwiZGVzYyI6IjUgTW9zdCBSZWNvbW1lbmRlZCBNYW5nYSBhbmQgQW5pbWUgU2VyaWVzIFNpbWlsYXIgdG8gRnVsbG1ldGFsIEFsY2hlbWlzdCIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LW1hbmdhLWFuZC1hbmltZS1saWtlLWZ1bGxtZXRhbC1hbGNoZW1pc3RcLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDlcL0Z1bGxtZXRhbC1BbGNoZW1pc3QtbWFuZ2EtMzAweDE1Ni5qcGciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5f7adc40f0593"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Fullmetal Alchemist" href="https://jw-webmagazine.com/best-manga-and-anime-like-fullmetal-alchemist/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Fullmetal Alchemist</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Manga and Anime Series Similar to Fullmetal Alchemist</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Fullmetal Alchemist" href="https://jw-webmagazine.com/best-manga-and-anime-like-fullmetal-alchemist/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/09/Fullmetal-Alchemist-manga-300x156.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Fullmetal-Alchemist-manga-300x156.jpg" alt="5 Best Manga and Anime like Fullmetal Alchemist" style="display: none"></a></div>
+</div>
+<h2>14. Anohana: The Flower We Saw That Day</h2>
+<p><iframe loading="lazy" title="&#26144;&#30011;&#12302;&#21127;&#22580;&#29256; &#12354;&#12398;&#26085;&#35211;&#12383;&#33457;&#12398;&#21517;&#21069;&#12434;&#20693;&#36948;&#12399;&#12414;&#12384;&#30693;&#12425;&#12394;&#12356;&#12290;&#12303;&#29305;&#21029;&#20808;&#34892;&#26144;&#20687;" width="640" height="360" src="https://www.youtube.com/embed/0hKLB5Q3DqE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Anohana: The Flower We Saw That Day (&#12354;&#12398;&#26085;&#35211;&#12383;&#33457;&#12398;&#21517;&#21069;&#12434;&#20693;&#36948;&#12399;&#12414;&#12384;&#30693;&#12425;&#12394;&#12356;&#12290;)</strong>, which is also called just Anohana, is one of the most heartwarming anime in Japan. Its story begins with this plot:&nbsp;Jinta Yadomi, whose nickname is Jintan, plays video games instead of attending high school.</p>
+<p>One day in summer, his childhood friend Meiko Homma (Menma) shows up before Jintan as a ghost though she died in an accident years before. The moving anime is brought to an end with just 11 episodes.</p>
+<p>Air Dates: 2011<br>
+Genre: Drama<br>
+Recommended for Fans</p>
+<p>&#9654;&#65038;<a href="https://www.crunchyroll.com/anohana-the-flower-we-saw-that-day" rel="nofollow" target="_blank">Watch on Crunchyroll!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LC9j7J" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dTsHsP" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>13. Love Live!</h2>
+<p><iframe loading="lazy" title="Love Live! 1st Season #1  (EN.TW.KR Sub)" width="640" height="360" src="https://www.youtube.com/embed/0SCmVlHujPA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>An idol, which means Japanese pop singer groups in Japanese, is now a very popular theme of anime, and <strong>Love Live! (&#12521;&#12502;&#12521;&#12452;&#12502;!)</strong> is the most famous and first anime that assured the establishment of the theme. The two seasons of&nbsp;Love Live! was aired in 2013-2014, and the second title of the anime series was released as&nbsp;<strong>Love Live! Sunshine!! (&#12521;&#12502;&#12521;&#12452;&#12502;!&#12469;&#12531;&#12471;&#12515;&#12452;&#12531;!!)</strong> in 2016-2017. Love Live! focuses on the process of how the high school idol group named&nbsp;&mu;&rsquo;s (pronounced &ldquo;muse&rdquo;) grows, and&nbsp;Aqours&nbsp;is featured in&nbsp;Love Live! Sunshine!!.</p>
+<p>More new titles are being made following the current popular series. Fans of Love Live! visit the Tokyo&rsquo;s town Akihabara, which is the mecca of Japanese anime and inspired the production of the anime.</p>
+<p>Air Dates: from 2013<br>
+Genre: Slice of life, Comedy<br>
+Recommended for&nbsp;Beginners</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80150600" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2zPgqqs" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LC9zUf" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>12. Ghost in the Shell</h2>
+<p><iframe loading="lazy" title="Ghost in the Shell: SAC_2045 | Official Trailer | Netflix" width="640" height="360" src="https://www.youtube.com/embed/5HK_l9NHBw4?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The legendary cyberpunk anime series <strong>Ghost in the Shell (&#25915;&#27579;&#27231;&#21205;&#38538;)</strong> was originally released in 1995 as an anime film directed by Mamoru Oshii, which was followed by the first season of the TV anime series&nbsp;<strong>Ghost in the Shell: Stand Alone Complex (&#25915;&#27579;&#27231;&#21205;&#38538; STAND ALONE COMPLEX)</strong> under the direction of Kenji Kamiyama.</p>
+<p>The setting of the anime is Japan in the parallel world after 2030 where the science technology is highly developed. In this anime, Public Security Section 9 including the main member Major Motoko Kusanagi works to prevent crimes. The new title of the series&nbsp;<strong>Ghost in the Shell: SAC 2045 (&#25915;&#27579;&#27231;&#21205;&#38538; SAC_2045)</strong> with full 3DCG was released with 12 episodes exclusively on Netflix all over the world in 2020.</p>
+<p>Air Dates:&nbsp;from 2002<br>
+Genre: Science Fiction, Cyberpunk<br>
+Recommended for Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/70213091" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3g2jMXK" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3cKCpxm" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>11. Dragon Ball</h2>
+<p><iframe loading="lazy" title="Dragon Ball Z: Battle of Gods Official US Release Trailer (2014) - Anime Action Movie HD" width="640" height="360" src="https://www.youtube.com/embed/sxufB6DxXk0?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>Many anime fans associate the most famous action anime with <strong>Dragon Ball (&#12489;&#12521;&#12468;&#12531;&#12508;&#12540;&#12523;)</strong>, which started to be aired in 1984. Dragon Ball is originally made as the Weekly Shonen Jump manga by Akira Toriyama. There are several main parts in the Dragon Ball series, and it is ongoing as the new title <strong>Dragon Ball Super (&#12489;&#12521;&#12468;&#12531;&#12508;&#12540;&#12523;&#36229;)</strong> from 2015. The well-known part is <strong>Dragon Ball Z (&#12489;&#12521;&#12468;&#12531;&#12508;&#12540;&#12523;Z)</strong> where the story proceeds after the main character Goku is grown up.</p>
+<p>Any battle scenes are worth watching, however, it is especially recommended to watch Goku vs&nbsp;Freeza&nbsp;and Goku&rsquo;s son Gohan vs Cell.</p>
+<p>Air Dates:&nbsp;Action, Adventure<br>
+Genre:&nbsp;from 1984<br>
+Recommended for&nbsp;Beginners</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80107032" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LGBvWI" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dVx3zx" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5fb1f2f929638" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBEcmFnb24gQmFsbCIsImRlc2MiOiI1IE1vc3QgUmVjb21tZW5kZWQgTWFuZ2EgYW5kIEFuaW1lIFNpbWlsYXIgdG8gRHJhZ29uIEJhbGwiLCJsaW5rIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvYmVzdC1tYW5nYS1hbmQtYW5pbWUtbGlrZS1kcmFnb24tYmFsbFwvIiwiaW1hZ2UiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIwXC8wOVwvTWFuZ2Etb2YtRHJhZ29uLUJhbGwtMjYweDIwMC5qcGciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5fb1f2f929638"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Dragon Ball" href="https://jw-webmagazine.com/best-manga-and-anime-like-dragon-ball/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Dragon Ball</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Manga and Anime Similar to Dragon Ball</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Dragon Ball" href="https://jw-webmagazine.com/best-manga-and-anime-like-dragon-ball/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/09/Manga-of-Dragon-Ball-260x200.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Manga-of-Dragon-Ball-260x200.jpg" alt="5 Best Manga and Anime like Dragon Ball" style="display: none"></a></div>
+</div>
+<h2>10. Death Note</h2>
+<p><iframe loading="lazy" title="Death Note | OFFICIAL TRAILER" width="640" height="360" src="https://www.youtube.com/embed/NlJZ-YgAt-c?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The mystery and horror anime <strong>Dearth Note (&#12487;&#12473;&#12494;&#12540;&#12488;)</strong>, based on the manga published on the Weekly Shonen Jump from 2003 to 2006, is highly rated by both domestic and international anime fans. It is so popular worldwide partly because the anime is completed with the relatively short story (37 episodes) in addition to the well-elaborated storyline.</p>
+<p>The protagonist Light Yagami finds a Death Note which makes people die if their names are written on the note. You can enjoy watching of the high-level game of wits.</p>
+<p>Air Dates: 2006-2007<br>
+Genre: Mystery<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://amzn.to/2yWD6Fr" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2Az4REd" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5fbc4f84c14ee" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBEZWF0aCBOb3RlIiwiZGVzYyI6IjUgTW9zdCBSZWNvbW1lbmRlZCBNYW5nYSBhbmQgQW5pbWUgU2VyaWVzIFNpbWlsYXIgdG8gRGVhdGggTm90ZSIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LW1hbmdhLWFuZC1hbmltZS1saWtlLWRlYXRoLW5vdGVcLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMDlcL0RlYXRoLU5vdGUtbWFuZ2EtMzAweDE1Ni5wbmciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5fbc4f84c14ee"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Death Note" href="https://jw-webmagazine.com/best-manga-and-anime-like-death-note/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Death Note</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Manga and Anime Series Similar to Death Note</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Death Note" href="https://jw-webmagazine.com/best-manga-and-anime-like-death-note/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/09/Death-Note-manga-300x156.png)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Death-Note-manga-300x156.png" alt="5 Best Manga and Anime like Death Note" style="display: none"></a></div>
+</div>
+<h2>9. Pok&eacute;mon</h2>
+<p><iframe loading="lazy" title="Pok&eacute;mon Journeys Opening Sing-a-Long" width="640" height="360" src="https://www.youtube.com/embed/4gNaG4g6xdM?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Pok&eacute;mon (&#12509;&#12465;&#12514;&#12531;)</strong> is one of the most popular Japanese anime and games around the globe now, and it was first aired in Japan as the Japanese title&nbsp;<strong>Pocket Monsters (&#12509;&#12465;&#12483;&#12488;&#12514;&#12531;&#12473;&#12479;&#12540;)</strong> in 1997.&nbsp; New titles have been broadcasted every time a new game is released, and the latest series is being broadcasted from 2019 following the previous&nbsp;<strong>Sun &amp; Moon (&#12509;&#12465;&#12483;&#12488;&#12514;&#12531;&#12473;&#12479;&#12540; &#12469;&#12531;&amp;&#12512;&#12540;&#12531;)</strong>.</p>
+<p>The young boy Satoshi travels all over the world with various Pokemon like Pikachu to become a Pokemon master.</p>
+<p>Air Dates:&nbsp;from 1997<br>
+Genre:&nbsp;Kids, Family, Adventure<br>
+Recommended for&nbsp;Beginners</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/70297439" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LFqtRP" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dVxJoz" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="60adb9009522a" data-code="eyJ0aXRsZSI6IjUgQmVzdCBBbmltZSBTZXJpZXMgbGlrZSBQb2tcdTAwZTltb24iLCJkZXNjIjoiNSBQb3B1bGFyIEFuaW1lIFNlcmllcyBTaW1pbGFyIHRvIFBva1x1MDBlOW1vbiIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LWFuaW1lLXNlcmllcy1saWtlLXBva2Vtb25cLyIsImltYWdlIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvd3AtY29udGVudFwvdXBsb2Fkc1wvMjAyMFwvMTJcL1Bva2VcdTAzMDFtb24tMzAweDE4OS5qcGciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="60adb9009522a"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Anime Series like Pok&eacute;mon" href="https://jw-webmagazine.com/best-anime-series-like-pokemon/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Anime Series like Pok&eacute;mon</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Popular Anime Series Similar to Pok&eacute;mon</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Anime Series like Pok&eacute;mon" href="https://jw-webmagazine.com/best-anime-series-like-pokemon/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/12/Poke%CC%81mon-300x189.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/12/Poke%CC%81mon-300x189.jpg" alt="5 Best Anime Series like Pok&eacute;mon" style="display: none"></a></div>
+</div>
+<h2>8. Re:Zero -Starting Life in Another World-</h2>
+<p><iframe loading="lazy" title="&#12302;Re:&#12476;&#12525;&#12363;&#12425;&#22987;&#12417;&#12427;&#30064;&#19990;&#30028;&#29983;&#27963;&#12303;&#31532;1&#26399;&#26032;&#32232;&#38598;&#29256;PV" width="640" height="360" src="https://www.youtube.com/embed/Bwq7HxrHiZU?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Re:Zero -Starting Life in Another World- (Re&#65306;&#12476;&#12525;&#12363;&#12425;&#22987;&#12417;&#12427;&#30064;&#19990;&#30028;&#29983;&#27963;)</strong>, which is also called just Re:Zero, is looked on as one of the best Japanese anime and light novels released in 2010s. The season 1 started with 25 episodes in 2016, and the newly-edited version is aired from the beginning of 2020.</p>
+<p>The season 2 of Re:Zero was broadcasted with 25 episodes in 2020 and 2021. The main character Subaru is sent to Isekai (another world) with no superpower except a certain ability. The story proceeds with the encounter with the heroine Emilia.</p>
+<p>Air Dates: from 2016<br>
+Genre:&nbsp;Isekai, Adventure, Dark Fantasy,&nbsp;Time loop<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/81262169" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3fZpnyk" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2ZqqKjN" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>7. JoJo&rsquo;s Bizarre Adventure</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12300;&#12472;&#12519;&#12472;&#12519;&#12398;&#22855;&#22937;&#12394;&#20882;&#38522; &#40644;&#37329;&#12398;&#39080;&#12301;&#31532;2&#24382;&#12480;&#12452;&#12472;&#12455;&#12473;&#12488;PV" width="640" height="360" src="https://www.youtube.com/embed/2Nqgca3eNSg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The popular manga and anime franchise&nbsp;<strong>JoJo&rsquo;s Bizarre Adventure (&#12472;&#12519;&#12472;&#12519;&#12398;&#22855;&#22937;&#12394;&#20882;&#38522;)</strong> started to be published from 1987, and the series consists of 8 parts from<strong>&nbsp;Phantom Blood (&#12501;&#12449;&#12531;&#12488;&#12512;&#12502;&#12521;&#12483;&#12489;)</strong> to <strong>Jojolion (&#12472;&#12519;&#12472;&#12519;&#12522;&#12458;&#12531;)</strong> so far (as of 2020). The newest anime adaption is the 5th part&nbsp;<strong>Golden Wind (&#40644;&#37329;&#12398;&#39080;)</strong> which was aired in 2018-2019.</p>
+<p>The stories focus on the mysterious adventures of the Joestar family. A main character varies by the part, but they all&nbsp;are the&nbsp;Joestar family. Unique characters and intense battle scenes are highlights of the anime.</p>
+<p>Air Dates: from 2012<br>
+Genre: Adventure, Action, Fantasy<br>
+Recommended for Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80179831" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LzEqkh" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2zJsMAG" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>6. Neon Genesis Evangelion</h2>
+<p><iframe loading="lazy" title="&#12304;&#20844;&#24335;&#12305;&#26032;&#19990;&#32000;&#12456;&#12532;&#12449;&#12531;&#12466;&#12522;&#12458;&#12531; &#31532;&#22769;&#35441;&#12300;&#20351;&#24466;&#12289;&#35186;&#26469;&#12301;" width="640" height="360" src="https://www.youtube.com/embed/ZSgz3ehON8s?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Neon Genesis EVANGELION (&#26032;&#19990;&#32000;&#12456;&#12532;&#12449;&#12531;&#12466;&#12522;&#12458;&#12531;)</strong>, directed by&nbsp;Hideaki Anno, is worldly known as one of the symbols of Japanese anime in 1990s. The famous mecha anime mainly depicts the story of the 4 teenagers: Shinji Ikari, Rei Ayanami,&nbsp;Asuka Langley Soryu and&nbsp;Kaworu Nagisa. They fight with the enemies called Angels by piloting the giant humanoid robot Evangelions.</p>
+<p>The three anime movies were released:&nbsp;<strong>Evangelion: 1.0 You Are (Not) Alone (&#12529;&#12532;&#12449;&#12531;&#12466;&#12522;&#12530;&#12531;&#26032;&#21127;&#22580;&#29256;:&#24207;)</strong> in 2007,&nbsp;<strong>Evangelion: 2.0 You Can (Not) Advance (&#12529;&#12532;&#12449;&#12531;&#12466;&#12522;&#12530;&#12531;&#26032;&#21127;&#22580;&#29256;:&#30772;)</strong> in 2009 and&nbsp;<strong>Evangelion: 3.0 You Can (Not) Redo (&#12529;&#12532;&#12449;&#12531;&#12466;&#12522;&#12530;&#12531;&#26032;&#21127;&#22580;&#29256;:Q)</strong> in 2012. Additionally, the final title <strong>Evangelion: 3.0+1.0 (&#12471;&#12531;&#12539;&#12456;&#12532;&#12449;&#12531;&#12466;&#12522;&#12458;&#12531;&#21127;&#22580;&#29256;:||)</strong> came to the big screen in movies in 2021.</p>
+<p>Air Dates: 1995-1996<br>
+Genre: Mecha, Action, Fantasy<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/81033445" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3g1qYU4" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="608900a41f5b4" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBOZW9uIEdlbmVzaXMgRXZhbmdlbGlvbiIsImRlc2MiOiI1IFBvcHVsYXIgTWFuZ2EgYW5kIEFuaW1lIFNlcmllcyBTaW1pbGFyIHRvIEV2YW5nZWxpb24iLCJsaW5rIjoiaHR0cHM6XC9cL2p3LXdlYm1hZ2F6aW5lLmNvbVwvYmVzdC1tYW5nYS1hbmQtYW5pbWUtbGlrZS1uZW9uLWdlbmVzaXMtZXZhbmdlbGlvblwvIiwiaW1hZ2UiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIxXC8wMVwvTWFuZ2Etb2YtTmVvbi1HZW5lc2lzLUV2YW5nZWxpb24tMzAweDE0Mi5qcGciLCJyZWwiOiIifQ==">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="608900a41f5b4"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Neon Genesis Evangelion" href="https://jw-webmagazine.com/best-manga-and-anime-like-neon-genesis-evangelion/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Neon Genesis Evangelion</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Popular Manga and Anime Series Similar to Evangelion</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Neon Genesis Evangelion" href="https://jw-webmagazine.com/best-manga-and-anime-like-neon-genesis-evangelion/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2021/01/Manga-of-Neon-Genesis-Evangelion-300x142.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2021/01/Manga-of-Neon-Genesis-Evangelion-300x142.jpg" alt="5 Best Manga and Anime like Neon Genesis Evangelion" style="display: none"></a></div>
+</div>
+<h2>5. One Piece</h2>
+<p><iframe loading="lazy" title="&#12450;&#12491;&#12513;&#12300;ONE PIECE&#12301;20&#21608;&#24180;&#12473;&#12479;&#12540;&#12488;PV&#12525;&#12531;&#12464;&#12496;&#12540;&#12472;&#12519;&#12531;&#65374;1999-2019&#65374;" width="640" height="360" src="https://www.youtube.com/embed/FLYg9sn3Q5w?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>What is the most famous and top-selling ongoing manga and anime is <strong>One Piece (&#12527;&#12531;&#12500;&#12540;&#12473;)</strong> without a doubt. The first volume of the manga was published in 1997, and there are now over 90 volumes sold around the world. The anime adaption began two years later after the first manga was released, and over 900 episodes have been aired since then. The whole story of One Piece can be divided into about 10 parts, and beginners can enjoy it even if they start anywhere.</p>
+<p>It proceeds with the adventures of the main character&nbsp;Monkey D. Luffy and his crews in the pirates world. He sets sail on the sea in search of the ultimate treasure called &ldquo;One Piece&rdquo;. There are Devil Fruits in the world of One Piece, which grant a superpower to those who eat one while the fruits unable them to swim. Powerful fight scenes between the Devil Fruits eaters including Luffy are stunning.</p>
+<p>Air Dates: from 1999<br>
+Genre: Adventure, Action, Fantasy, Drama<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80107103" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2ZfUTSr" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dYys8q" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5fa8d06dda9d3" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBPbmUgUGllY2UiLCJkZXNjIjoiNSBSZWNvbW1lbmRlZCBNYW5nYSBhbmQgQW5pbWUgaWYgWW91IExpa2UgT25lIFBpZWNlXHJcbiIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LW1hbmdhLWFuZC1hbmltZS1saWtlLW9uZS1waWVjZVwvIiwiaW1hZ2UiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIwXC8wOFwvT25lLVBpZWNlLW1hbmdhLTI2N3gyMDAuanBnIiwicmVsIjoiIn0=">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5fa8d06dda9d3"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like One Piece" href="https://jw-webmagazine.com/best-manga-and-anime-like-one-piece/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like One Piece</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Recommended Manga and Anime if You Like One Piece </em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like One Piece" href="https://jw-webmagazine.com/best-manga-and-anime-like-one-piece/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/08/One-Piece-manga-267x200.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/08/One-Piece-manga-267x200.jpg" alt="5 Best Manga and Anime like One Piece" style="display: none"></a></div>
+</div>
+<h2>4. Monogatari Series</h2>
+<p><iframe loading="lazy" title="&#32066;&#29289;&#35486; &#12288;&#65295;&#12288;AnimeJapan 2017 &#35299;&#31105;PV" width="640" height="360" src="https://www.youtube.com/embed/kt9auUnNqEA?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Monogatari Series (&#29289;&#35486;&#12471;&#12522;&#12540;&#12474;)</strong>, produced by the animation studio Shaft under the direction of&nbsp;Akiyuki Shinbo, is the popular anime series released in 2009. It is adapted into an anime from the novels written by Nisioisin (Nishio Ishin). The first season of Monogatari Series started as <strong>Bakemonogatari (&#21270;&#29289;&#35486;)</strong>, <strong>Nisemonogatari (&#20605;&#29289;&#35486;)</strong> and <strong>Nisemonogatari Black&nbsp;(&#20605;&#29289;&#35486; &#40658;)</strong> in 2009-2012.&nbsp;Monogatari means story or tale in English, and various bizarre stories are depicted focusing on unique charachers such as the high school boy Koyomi Araragi and several heroines.</p>
+<p>Koyomi Araragi handles with lots of problems arising from apparitions called Kaii in Japanese. The apparitions (like supernatural ghost) have influence on the characters, and he saves them.&nbsp;There are mainly 5 seasons of the novel and 3 of them have been adapted into an anime. In an interview, the director Akiyuki Shinbo said that he would like to continue producing the rest of the seasons as long as the original novel is being published.</p>
+<p>Air Dates: from 2009<br>
+Genre: Fantasy, Slice of life, Comedy<br>
+Recommended for Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80060347" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3bJ8iVK" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3dUcaF2" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>3. Clannad</h2>
+<p><iframe loading="lazy" title="&#12302;&#65315;&#65324;&#65313;&#65326;&#65326;&#65313;&#65316;&#12303; &#12458;&#12540;&#12503;&#12491;&#12531;&#12464;&#12512;&#12540;&#12499;&#12540;  &#65288;&#39640;&#35299;&#20687;&#24230;&#65289;" width="640" height="360" src="https://www.youtube.com/embed/tCV7yyImQFk?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The third position of the best anime list may satisfy many Japanese anime fans, however, some foreign people may be surprised at it since <strong>Clannad (&#12463;&#12521;&#12490;&#12489;)</strong> is less known worldwide. Clannad is one of the Kyoto Animation&rsquo;s masterpieces, which is recommended for any kind of anime fan. There is no action scene or supernatural event in this anime, but human drama is represented sensitively.</p>
+<p>There are two parts in the anime:&nbsp;Clannad in 2007-2008 and&nbsp;Clannad After Story in 2008-2009. The story follows the daily life of the main character Tomoya and the heroine Nagisa in the high school. It reaches the climax in the second half of the anime, and touching episodes move you. It is totally worth spending the amount of time for 44 main episodes.</p>
+<p>Air Dates: 2007-2009<br>
+Genre: Drama, Slice of life<br>
+Recommended for Beginners/Fans/Freaks</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/80245375" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/3677OaY" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/36awzTN" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<h2>2. Naruto</h2>
+<p><iframe loading="lazy" title="&#12300;NARUTO:THE BRAVE STORIES&#12301;&#12288;PV" width="640" height="360" src="https://www.youtube.com/embed/BCp31zUbUYg?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p><strong>Naruto (&#12490;&#12523;&#12488;)</strong>, the greatest anime with the theme of Ninja, was initially released as the Weekly Shonen Jump manga by Masashi Kishimoto in 1999 and run until 2014. The anime Naruto series was completed in 2017 after no less than 15 years, consisting of two titles:&nbsp;<strong>Naruto (NARUTO -&#12490;&#12523;&#12488;-)</strong>&nbsp;aired in 2002-2007 and&nbsp;<strong>Naruto: Shippuden (NARUTO -&#12490;&#12523;&#12488;- &#30142;&#39080;&#20253;)</strong> aired in 2007-2017.</p>
+<p>The setting of Naruto is the fictional world of Shinobi (Ninja), and the ineffective boy Naruto is growing by the help of many friends and masters there. Naruto and other Ninja characters battle with various Ninja techniques using the chakra energy.</p>
+<p>Lots of anime&rsquo;s essentials such as strong bonds with friends and family, betrayal and parting are represented in this anime. Many anime fans may pick out Naruto as the top of anime especially for foreign people, and it deserves it. Nevertheless, Naruto yields the top position to a certain new anime being released.</p>
+<p>Air Dates: 2002-2017<br>
+Genre: Adventure, Action, Fantasy<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://amzn.to/2y9ptCa" rel="nofollow" target="_blank">Watch on Amazon Prime Video (United States)!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2LBSppD" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-id="5fe97257f0b8d" data-code="eyJ0aXRsZSI6IjUgQmVzdCBNYW5nYSBhbmQgQW5pbWUgbGlrZSBOYXJ1dG8iLCJkZXNjIjoiNSBNb3N0IFJlY29tbWVuZGVkIE1hbmdhIGFuZCBBbmltZSBTaW1pbGFyIHRvIE5hcnV0byIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LW1hbmdhLWFuZC1hbmltZS1saWtlLW5hcnV0b1wvIiwiaW1hZ2UiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDIwXC8wOFwvTmFydXRvLW1hbmdhLTI2N3gyMDAuanBnIiwicmVsIjoiIn0=">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5fe97257f0b8d"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Manga and Anime like Naruto" href="https://jw-webmagazine.com/best-manga-and-anime-like-naruto/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Manga and Anime like Naruto</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Manga and Anime Similar to Naruto</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Manga and Anime like Naruto" href="https://jw-webmagazine.com/best-manga-and-anime-like-naruto/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/08/Naruto-manga-267x200.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/08/Naruto-manga-267x200.jpg" alt="5 Best Manga and Anime like Naruto" style="display: none"></a></div>
+</div>
+<h2>1. Demon Slayer: Kimetsu no Yaiba</h2>
+<p><iframe loading="lazy" title="TV&#12450;&#12491;&#12513;&#12300;&#39740;&#28357;&#12398;&#20995;&#12301;&#31532;1&#24382;PV 2019&#24180;4&#26376;&#25918;&#36865;&#38283;&#22987;" width="640" height="360" src="https://www.youtube.com/embed/BpiILiEZuF4?start=165&amp;feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>The advent of a shockingly quality anime surprised experienced fans all over the world in 2019. <strong>Demon Slayer: Kimetsu no Yaiba (&#39740;&#28357;&#12398;&#20995;)</strong> is adapted into an anime from the manga by Koyoharu Gotoge, which was serialized on the Weekly Shonen Jump from 2016. The first season of&nbsp;Demon Slayer: Kimetsu no Yaiba with 26 episodes was welcomed by both fans of the manga and people who had not read it.</p>
+<p>It is set in the Taisho period (1912-1926) in Japan where demons exist with human beings. The main character Tanjiro Kamado finds his family is killed by the attack of demons and only his sister Nezuko is changed into a demon. He decides to become a demon slayer to restore her to a human.</p>
+<p>This anime includes every important part for an excellent anime from the main character&rsquo;s purity and growing to friends with the spirit of brotherhood and respect for any characters.&nbsp;The battle scenes between demon slayers with swords and unique demon characters are intense, which is beautifully drawn. Each character&rsquo;s past and background including even demons is respectfully depicted in this anime.</p>
+<p>It is followed by the sequel story <strong>Demon Slayer: Kimetsu no Yaiba the Movie: Mugen Train (&#21127;&#22580;&#29256; &#39740;&#28357;&#12398;&#20995; &#28961;&#38480;&#21015;&#36554;&#32232;)</strong> released in October, 2020. This franchise has not completed yet, but it is safe to say that Demon Slayer: Kimetsu no Yaiba will grow to represent the best anime in Japan and around the world.</p>
+<p>Air Dates:&nbsp;from 2019<br>
+Genre:&nbsp;Drama, Action, Adventure, Dark Fantasy<br>
+Recommended for Beginners/Fans</p>
+<p>&#9654;&#65038;<a href="https://www.netflix.com/title/81091393" rel="nofollow" target="_blank">Watch on Netflix!</a><br>
+&#9654;&#65038;<a href="https://amzn.to/2ZfA0ak" rel="nofollow" target="_blank">Watch on Amazon Prime Video (Japan)!</a></p>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjUgQmVzdCBBbmltZSBsaWtlIERlbW9uIFNsYXllcjogS2ltZXRzdSBubyBZYWliYSIsImRlc2MiOiI1IE1vc3QgUmVjb21tZW5kZWQgQW5pbWUgU2ltaWxhciB0byBEZW1vbiBTbGF5ZXI6IEtpbWV0c3Ugbm8gWWFpYmEiLCJsaW5rIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vYmVzdC1hbmltZS1saWtlLWRlbW9uLXNsYXllci1raW1ldHN1LW5vLXlhaWJhLyIsImltYWdlIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDgvQW5pbWUtRGVtb24tU2xheWVyLUtpbWV0c3Utbm8tWWFpYmEucG5nIiwicmVsIjoiIn0=" data-id="5f6aa50d393b0">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="5 Best Anime like Demon Slayer: Kimetsu no Yaiba" href="https://jw-webmagazine.com/best-anime-like-demon-slayer-kimetsu-no-yaiba/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">5 Best Anime like Demon Slayer: Kimetsu no Yaiba</strong> <em class="markup--em markup--mixtapeEmbed-em">5 Most Recommended Anime Similar to Demon Slayer: Kimetsu no Yaiba</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="5 Best Anime like Demon Slayer: Kimetsu no Yaiba" href="https://jw-webmagazine.com/best-anime-like-demon-slayer-kimetsu-no-yaiba/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/08/Anime-Demon-Slayer-Kimetsu-no-Yaiba.png)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/08/Anime-Demon-Slayer-Kimetsu-no-Yaiba.png" alt="5 Best Anime like Demon Slayer: Kimetsu no Yaiba" style="display: none"></a></div>
+</div>
+<hr><p>This best anime list covers from the classic series to the ongoing new faces including the latest trends. I did the best to be objective as much as possible to complete the ultimate ranking that helps many fans to understand the lineup of quality works and to find the one to watch next. As the advent of nicer one, this best anime&rsquo;s position is changing.</p>
+<p>And, if you are wondering how to watch the lineup above, Netflix is one of the reasonable and useful options. Check the list of must-watchs on Netflix below!</p>
+<div class="media-link-preview" contenteditable="false" data-id="5f7ea7d8eeb00" data-code="eyJ0aXRsZSI6IjIwIEJlc3QgQW5pbWUgTW92aWVzIG9uIE5ldGZsaXggKDIwMjApIiwiZGVzYyI6IkJlc3QgQW5pbWUgTW92aWVzIG9uIE5ldGZsaXggUmlnaHQgTm93IGZyb20gdGhlIGNsYXNzaWMgZmlsbXMgdG8gdGhlIGxhdGVzdCBOZXRmbGl4IG9yaWdpbmFsIHRpdGxlcyIsImxpbmsiOiJodHRwczpcL1wvanctd2VibWFnYXppbmUuY29tXC9iZXN0LWFuaW1lLW1vdmllcy1vbi1uZXRmbGl4XC8iLCJpbWFnZSI6Imh0dHBzOlwvXC9qdy13ZWJtYWdhemluZS5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjBcLzA5XC9OZXRmbGl4LW9uLVRWLXNjcmVlbi0zMDB4MTg5LmpwZyIsInJlbCI6IiJ9">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="5f7ea7d8eeb00"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="20 Best Anime Movies on Netflix (2020)" href="https://jw-webmagazine.com/best-anime-movies-on-netflix/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">20 Best Anime Movies on Netflix (2020)</strong> <em class="markup--em markup--mixtapeEmbed-em">Best Anime Movies on Netflix Right Now from the classic films to the latest Netflix original titles</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="20 Best Anime Movies on Netflix (2020)" href="https://jw-webmagazine.com/best-anime-movies-on-netflix/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/09/Netflix-on-TV-screen-300x189.jpg)" target="_self"> <img class="size-medium no-zoom no-ads no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/09/Netflix-on-TV-screen-300x189.jpg" alt="20 Best Anime Movies on Netflix (2020)" style="display: none"></a></div>
+</div>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjIwIEJlc3QgQW5pbWUgdG8gV2F0Y2ggb24gTmV0ZmxpeCAoMjAyMCkiLCJkZXNjIjoiQmVzdCBBbmltZSBvbiBOZXRmbGl4IFJpZ2h0IE5vdyBmcm9tIHRoZSBjbGFzc2ljIHNlcmllcyB0byB0aGUgbGF0ZXN0IHRpdGxlcyIsImxpbmsiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS9hbmltZS1vbi1uZXRmbGl4LyIsImltYWdlIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDMvdGhpYmF1bHQtcGVuaW4tQVdPbDdxcXNmZk0tdW5zcGxhc2gtbWluLmpwZyIsInJlbCI6IiJ9" data-id="5e71d4b410cb8">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="20 Best Anime to Watch on Netflix (2020)" href="https://jw-webmagazine.com/anime-on-netflix/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">20 Best Anime to Watch on Netflix (2020)</strong> <em class="markup--em markup--mixtapeEmbed-em">Best Anime on Netflix Right Now from the classic series to the latest titles</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="20 Best Anime to Watch on Netflix (2020)" href="https://jw-webmagazine.com/anime-on-netflix/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/03/thibault-penin-AWOl7qqsffM-unsplash-min.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/03/thibault-penin-AWOl7qqsffM-unsplash-min.jpg" alt="20 Best Anime to Watch on Netflix (2020)" style="display: none"></a></div>
+</div>
+<p>For those who like manga, see the best 25 manga list of all time in this article below.</p>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjI1IEJlc3QgTWFuZ2Egb2YgQWxsIFRpbWUiLCJkZXNjIjoiQ2hlY2sgdGhlIGdyZWF0ZXN0IG1hbmdhIHJhbmtpbmcgd2l0aCB0aGUgbGF0ZXN0IHRyZW5kcyIsImxpbmsiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS9iZXN0LW1hbmdhLyIsImltYWdlIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMDUvQmVzdC1NYW5nYS1vZi1BbGwtVGltZS5qcGciLCJyZWwiOiIifQ==" data-id="5e71d50c5bb3d">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="25 Best Manga of All Time" href="https://jw-webmagazine.com/best-manga/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">25 Best Manga of All Time</strong> <em class="markup--em markup--mixtapeEmbed-em">Check the greatest manga ranking with the latest trends</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="25 Best Manga of All Time" href="https://jw-webmagazine.com/best-manga/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/05/Best-Manga-of-All-Time.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/05/Best-Manga-of-All-Time.jpg" alt="25 Best Manga of All Time" style="display: none"></a></div>
+</div>
+<p>For Studio Ghibli fans, compare your favorite films with this list of 7 best Ghibli movies below!</p>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjE1IEJlc3QgU3R1ZGlvIEdoaWJsaSBNb3ZpZXMgdG8gV2F0Y2giLCJkZXNjIjoiU3R1ZGlvIEdoaWJsaTogdGhlIHdvcmxk4oCZcyBiZXN0IGFuaW1lIG1vdmllIHN0dWRpbyIsImxpbmsiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS81LWJlc3QtZ2hpYmxpLW1vdmllcy1vZi1hbGwtdGltZS00ZTlmOWMyMzQzMDkvIiwiaW1hZ2UiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAxOS8wNi9qdy01ZDE1ZTY5YTFlNmFiNC44ODk2Mjk3OS5qcGVnIiwicmVsIjoiIn0=" data-id="5e71d5814d77a">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="15 Best Studio Ghibli Movies to Watch" href="https://jw-webmagazine.com/5-best-ghibli-movies-of-all-time-4e9f9c234309/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">15 Best Studio Ghibli Movies to Watch</strong> <em class="markup--em markup--mixtapeEmbed-em">Studio Ghibli: the world&rsquo;s best anime movie studio</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="15 Best Studio Ghibli Movies to Watch" href="https://jw-webmagazine.com/5-best-ghibli-movies-of-all-time-4e9f9c234309/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2019/06/jw-5d15e69a1e6ab4.88962979.jpeg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2019/06/jw-5d15e69a1e6ab4.88962979.jpeg" alt="15 Best Studio Ghibli Movies to Watch" style="display: none"></a></div>
+</div>
+<p>&#9661;Related Articles&#9661;</p>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjMwIEJlc3QgQW5pbWUgTW92aWVzIG9mIEFsbCBUaW1lIiwiZGVzYyI6Ikxpc3Qgb2YgdGhlIGdyZWF0ZXN0IGFuaW1lIG1vdmllcyB5b3UgbXVzdCB3YXRjaCAoVG9wIDMwKSIsImxpbmsiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS9iZXN0LWFuaW1lLW1vdmllcy8iLCJpbWFnZSI6Imh0dHBzOi8vanctd2VibWFnYXppbmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzA0L015LU5laWdoYm9yLVRvdG9yby5qcGVnIiwicmVsIjoiIn0=" data-id="5e71d5b558cb7">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="30 Best Anime Movies of All Time" href="https://jw-webmagazine.com/best-anime-movies/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">30 Best Anime Movies of All Time</strong> <em class="markup--em markup--mixtapeEmbed-em">List of the greatest anime movies you must watch (Top 30)</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="30 Best Anime Movies of All Time" href="https://jw-webmagazine.com/best-anime-movies/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/04/My-Neighbor-Totoro.jpeg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/04/My-Neighbor-Totoro.jpeg" alt="30 Best Anime Movies of All Time" style="display: none"></a></div>
+</div>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjggQmVzdCBMZWdhbCBBbmltZSBTdHJlYW1pbmcgU2l0ZXMgMjAyMSIsImRlc2MiOiJXaGVyZSB0byBXYXRjaCBBbmltZSAyMDIxPyIsImxpbmsiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS9iZXN0LWFuaW1lLXN0cmVhbWluZy1zaXRlcy8iLCJpbWFnZSI6Imh0dHBzOi8vanctd2VibWFnYXppbmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIwLzA0L0phcGFuLVdpcmVsZXNzLU9maeOBruOCs+ODlOODvOOBruOCs+ODlOODvC5qcGciLCJyZWwiOiIifQ==" data-id="5e71d5961e497">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="8 Best Legal Anime Streaming Sites 2021" href="https://jw-webmagazine.com/best-anime-streaming-sites/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">8 Best Legal Anime Streaming Sites 2021</strong> <em class="markup--em markup--mixtapeEmbed-em">Where to Watch Anime 2021?</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="8 Best Legal Anime Streaming Sites 2021" href="https://jw-webmagazine.com/best-anime-streaming-sites/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/04/Japan-Wireless-Ofi&#12398;&#12467;&#12500;&#12540;&#12398;&#12467;&#12500;&#12540;.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/04/Japan-Wireless-Ofi%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC%E3%81%AE%E3%82%B3%E3%83%94%E3%83%BC.jpg" alt="8 Best Legal Anime Streaming Sites 2021" style="display: none"></a></div>
+</div>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjEwIEJlc3QgQW5pbWUgdG8gV2F0Y2ggb24gQW1hem9uIFByaW1lIFZpZGVvIDIwMjEiLCJkZXNjIjoiMTAgQmVzdCBBbmltZSBTZXJpZXMgYW5kIEFuaW1lIE1vdmllcyB0byBXYXRjaCBvbiBBbWF6b24gUHJpbWUgVmlkZW8iLCJsaW5rIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vYmVzdC1hbmltZS1vbi1hbWF6b24tcHJpbWUtdmlkZW8vIiwiaW1hZ2UiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMS8wNy9BbWF6b24tUHJpbWUtVmlkZW8uanBnIiwicmVsIjoiIn0=" data-id="5e71d5a7de115">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="10 Best Anime to Watch on Amazon Prime Video 2021" href="https://jw-webmagazine.com/best-anime-on-amazon-prime-video/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">10 Best Anime to Watch on Amazon Prime Video 2021</strong> <em class="markup--em markup--mixtapeEmbed-em">10 Best Anime Series and Anime Movies to Watch on Amazon Prime Video</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="10 Best Anime to Watch on Amazon Prime Video 2021" href="https://jw-webmagazine.com/best-anime-on-amazon-prime-video/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2021/07/Amazon-Prime-Video.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2021/07/Amazon-Prime-Video.jpg" alt="10 Best Anime to Watch on Amazon Prime Video 2021" style="display: none"></a></div>
+</div>
+<p>&#9660;Editor&rsquo;s Picks&#9660;</p>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IlVOSVFMTyBKdWp1dHN1IEthaXNlbiBULVNoaXJ0IENvbGxlY3Rpb24gMjAyMSIsImRlc2MiOiJVTklRTE8gYW5kIEp1anV0c3UgS2Fpc2VuIHRvIENvbGxhYm9yYXRlIGZvciBhIE5ldyBULVNoaXJ0IENvbGxlY3Rpb24gaW4gMjAyMcKgU3VtbWVyIiwibGluayI6Imh0dHBzOi8vanctd2VibWFnYXppbmUuY29tL3VuaXFsby1qdWp1dHN1LWthaXNlbi10LXNoaXJ0LWNvbGxlY3Rpb24tMjAyMS8iLCJpbWFnZSI6Imh0dHBzOi8vanctd2VibWFnYXppbmUuY29tL3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDIxLzA1L3N1YjItMy5qcGciLCJyZWwiOiIifQ==" data-id="5e71d5c85f9b1">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="UNIQLO Jujutsu Kaisen T-Shirt Collection 2021" href="https://jw-webmagazine.com/uniqlo-jujutsu-kaisen-t-shirt-collection-2021/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">UNIQLO Jujutsu Kaisen T-Shirt Collection 2021</strong> <em class="markup--em markup--mixtapeEmbed-em">UNIQLO and Jujutsu Kaisen to Collaborate for a New T-Shirt Collection in 2021&nbsp;Summer</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="UNIQLO Jujutsu Kaisen T-Shirt Collection 2021" href="https://jw-webmagazine.com/uniqlo-jujutsu-kaisen-t-shirt-collection-2021/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2021/05/sub2-3.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2021/05/sub2-3.jpg" alt="UNIQLO Jujutsu Kaisen T-Shirt Collection 2021" style="display: none"></a></div>
+</div>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6IjEwIEJlc3QgQW5pbWUgdG8gV2F0Y2ggb24gQ3J1bmNoeXJvbGwgMjAyMSIsImRlc2MiOiIxMCBNb3N0IFJlY29tbWVuZGVkIENydW5jaHlyb2xsIEFuaW1lIFNlcmllcyAyMDIxIiwibGluayI6Imh0dHBzOi8vanctd2VibWFnYXppbmUuY29tL2Jlc3QtYW5pbWUtb24tY3J1bmNoeXJvbGwvIiwiaW1hZ2UiOiJodHRwczovL2p3LXdlYm1hZ2F6aW5lLmNvbS93cC1jb250ZW50L3VwbG9hZHMvMjAyMC8xMC9DcnVuY2h5cm9sbC13ZWJzaXRlLmpwZyIsInJlbCI6IiJ9" data-id="5e71d5dac28a1">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="10 Best Anime to Watch on Crunchyroll 2021" href="https://jw-webmagazine.com/best-anime-on-crunchyroll/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">10 Best Anime to Watch on Crunchyroll 2021</strong> <em class="markup--em markup--mixtapeEmbed-em">10 Most Recommended Crunchyroll Anime Series 2021</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="10 Best Anime to Watch on Crunchyroll 2021" href="https://jw-webmagazine.com/best-anime-on-crunchyroll/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/10/Crunchyroll-website.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/10/Crunchyroll-website.jpg" alt="10 Best Anime to Watch on Crunchyroll 2021" style="display: none"></a></div>
+</div>
+<div class="media-link-preview" contenteditable="false" data-code="eyJ0aXRsZSI6Ikxpc3Qgb2YgQW5pbWUgSW5zcGlyZWQgYnkgUmVhbC1MaWZlIFBsYWNlcyBpbiBKYXBhbiIsImRlc2MiOiJBbmltZSBUb3VyaXNtOiBMZXQncyB0cmF2ZWwgaW4gSmFwYW4gdmlzaXRpbmcgeW91ciBmYXZvcml0ZSBhbmltZSBwbGFjZXMiLCJsaW5rIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vYW5pbWUtaW5zcGlyZWQtYnktcGxhY2VzLWluLWphcGFuLyIsImltYWdlIjoiaHR0cHM6Ly9qdy13ZWJtYWdhemluZS5jb20vd3AtY29udGVudC91cGxvYWRzLzIwMjAvMTAvQW5pbWUtSW5zcGlyZWQtYnktUmVhbC1MaWZlLUxvY2F0aW9ucy1pbi1KYXBhbi5qcGciLCJyZWwiOiIifQ==" data-id="5e71d5e22d2d7">
+<div class="graf graf--mixtapeEmbed graf-after--mixtapeEmbed graf--trailing real-content" data-id="{ID}"><a class="markup--anchor markup--mixtapeEmbed-anchor" title="List of Anime Inspired by Real-Life Places in Japan" href="https://jw-webmagazine.com/anime-inspired-by-places-in-japan/" target="_self"> <strong class="markup--strong markup--mixtapeEmbed-strong">List of Anime Inspired by Real-Life Places in Japan</strong> <em class="markup--em markup--mixtapeEmbed-em">Anime Tourism: Let&rsquo;s travel in Japan visiting your favorite anime places</em> jw-webmagazine.com</a> <a class="js-mixtapeImage mixtapeImage u-ignoreBlock item-converted" title="List of Anime Inspired by Real-Life Places in Japan" href="https://jw-webmagazine.com/anime-inspired-by-places-in-japan/" style="background-image: url(https://jw-webmagazine.com/wp-content/uploads/2020/10/Anime-Inspired-by-Real-Life-Locations-in-Japan.jpg)" target="_self"> <img class="size-medium no-ads" src="https://jw-webmagazine.com/wp-content/uploads/2020/10/Anime-Inspired-by-Real-Life-Locations-in-Japan.jpg" alt="List of Anime Inspired by Real-Life Places in Japan" style="display: none"></a></div>
+</div>
+        </div>
+
+    </div>
+    <hr>
+
+    <ul class="c-post__tags"><li><a href="https://jw-webmagazine.com/tag/anime/">Anime</a></li><li><a href="https://jw-webmagazine.com/tag/cultural-tips/">Cultural Tips</a></li></ul><ul class='c-post__share c-post__share--bottom'><li><div class='like_post_btn ' data-post='240570' title='Like this post'>
+            <span class='clap-icon'></span>
+            <span class='like_status'>+127</span>
+            <span class='like_count'>145</span>
+            <div data-id='particles' class='particles-container particles'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>            
+            <div data-id='particles-2' class='particles-container particles-2'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>            
+            <div data-id='particles-3' class='particles-container particles-3'>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+                <div class='triangle'>
+                    <div class='square'></div>
+                </div>
+            </div>
+	    </div></li><li>
+			<a class='share_btn' onclick="window.open('http://www.facebook.com/sharer.php?u=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&quote=Check+the+30+greatest+anime+series+including+the+latest+recommendations+and+the+top+classics%21',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Facebook"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_facebook_2.png" alt=""></a>
+    	</li><li><a class='share_btn' onclick="window.open('https://twitter.com/share?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;text=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Twitter"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_twitter_2.png" alt=""></a></li><li>
+			<a class='share_btn' onclick="window.open('http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;media=https%3A%2F%2Fjw-webmagazine.com%2Fwp-content%2Fuploads%2F2020%2F03%2FKimetsu-no-YaibaDemon-Slayer.jpg&amp;description=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Pinterest">
+        	<img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_pinterest.png" alt="">
+        	</a>
+        </li><li><a class='share_btn' onclick="window.open('http://reddit.com/submit?url= https%3A%2F%2Fjw-webmagazine.com%2Fbest-anime%2F&amp;title=30+Best+Anime+of+All+Time+%282021%29',
+        '_blank', 'height=400,width=800'); return false;" href="#" title="Share to Reddit"><img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_reddit.png" alt=""></a></li></ul></main>
+    <aside class="c-sidebar">
+        
+
+<section id="media_image-5" class="widget widget_media_image"><h2 class="widget-title">Need a PROOF OF VACCINATION?</h2><a href="https://bit.ly/3GJ2Djn" target="_blank" rel="noopener"><img width="336" height="280" src="https://jw-webmagazine.com/wp-content/uploads/2021/11/Need-a-PROOF-OF-VACCINATION-in-English-soon-336-x-280-px-2.png" class="image wp-image-260179  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" title="EXPAT EXPO 2021" srcset="https://jw-webmagazine.com/wp-content/uploads/2021/11/Need-a-PROOF-OF-VACCINATION-in-English-soon-336-x-280-px-2.png 336w, https://jw-webmagazine.com/wp-content/uploads/2021/11/Need-a-PROOF-OF-VACCINATION-in-English-soon-336-x-280-px-2-240x200.png 240w" sizes="(max-width: 336px) 100vw, 336px" /></a></section><section id="media_image-3" class="widget widget_media_image"><h2 class="widget-title">Rent Your Ideal Apartment</h2><a href="https://bit.ly/3u0rPdm" target="_blank" rel="noopener"><img width="1080" height="1080" src="https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN.png" class="image wp-image-259376  attachment-full size-full" alt="Living Japan" loading="lazy" style="max-width: 100%; height: auto;" title="Rent Your Ideal Apartment" srcset="https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN.png 1080w, https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN-200x200.png 200w, https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN-400x400.png 400w, https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN-150x150.png 150w, https://jw-webmagazine.com/wp-content/uploads/2021/10/A_1080_1080_EN-768x768.png 768w" sizes="(max-width: 1080px) 100vw, 1080px" /></a></section><section id="jw_sidebar_single_post-2" class="widget single-sidebar-posts"></section><section id="jw_sidebar_ads-6" class="widget jw-res-ads"><!-- ADS PC --><!-- /62532913/p_JWwebmagazine_336x280_right2nd_24563 -->
+<div id='div-gpt-ad-1577087187716-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1577087187716-0'); });
+</script>
+</div></section><section id="media_image-8" class="widget widget_media_image"><h2 class="widget-title">Need a Phone Number Soon?</h2><a href="https://bit.ly/30r5Zqz"><img width="336" height="280" src="https://jw-webmagazine.com/wp-content/uploads/2021/10/336x280.png" class="image wp-image-259605  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://jw-webmagazine.com/wp-content/uploads/2021/10/336x280.png 336w, https://jw-webmagazine.com/wp-content/uploads/2021/10/336x280-240x200.png 240w" sizes="(max-width: 336px) 100vw, 336px" /></a></section>
+    </aside>
+</div>
+
+        </div>
+    </div>
+
+	</div><!-- #content -->
+
+    <footer id="site-footer">
+        <a href="#" id="page-top" aria-label="Back to top">
+            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-double-up" class="svg-inline--fa fa-angle-double-up fa-w-10" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <path fill="#fff" d="M177 255.7l136 136c9.4 9.4 9.4 24.6 0 33.9l-22.6 22.6c-9.4 9.4-24.6 9.4-33.9 0L160 351.9l-96.4 96.4c-9.4 9.4-24.6 9.4-33.9 0L7 425.7c-9.4-9.4-9.4-24.6 0-33.9l136-136c9.4-9.5 24.6-9.5 34-.1zm-34-192L7 199.7c-9.4 9.4-9.4 24.6 0 33.9l22.6 22.6c9.4 9.4 24.6 9.4 33.9 0l96.4-96.4 96.4 96.4c9.4 9.4 24.6 9.4 33.9 0l22.6-22.6c9.4-9.4 9.4-24.6 0-33.9l-136-136c-9.2-9.4-24.4-9.4-33.8 0z"></path>
+            </svg>
+        </a>
+        <div class="o-container">
+    <div class="footer-links">
+        <section class="footer-links__wrap">
+            <div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Destinations <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/destinations/tokyo/" title="Tokyo">Tokyo</a></li><li><a href="https://jw-webmagazine.com/destinations/osaka/" title="Osaka">Osaka</a></li><li><a href="https://jw-webmagazine.com/destinations/kyoto/" title="Kyoto">Kyoto</a></li><li><a href="https://jw-webmagazine.com/destinations/mt-fuji/" title="Mt.Fuji">Mt.Fuji</a></li><li><a href="https://jw-webmagazine.com/destinations/hokkaido/" title="Hokkaido">Hokkaido</a></li><li><a href="https://jw-webmagazine.com/destinations/okinawa/" title="Okinawa">Okinawa</a></li><li><a href="https://jw-webmagazine.com/destinations/hiroshima/" title="Hiroshima">Hiroshima</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Regions <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/destinations/#region-0" title="Hokkaido">Hokkaido</a></li><li><a href="https://jw-webmagazine.com/destinations/#region-1" title="Tohoku">Tohoku</a></li><li><a href="https://jw-webmagazine.com/destinations/#region-2" title="Kanto">Kanto</a></li><li><a href="https://jw-webmagazine.com/destinations/#region-3" title="Central Japan">Central Japan</a></li><li><a href="https://jw-webmagazine.com/destinations/#region-4" title="Western Japan">Western Japan</a></li><li><a href="https://jw-webmagazine.com/destinations/#region-5" title="Kyushu">Kyushu</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Interests <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/interests/things-to-do/" title="Things to Do">Things to Do</a></li><li><a href="https://jw-webmagazine.com/interests/food/" title="Food">Food</a></li><li><a href="https://jw-webmagazine.com/interests/shopping/" title="Shopping">Shopping</a></li><li><a href="https://jw-webmagazine.com/interests/accommodation/" title="Accommodation">Accommodation</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Season <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/season/spring/" title="Spring">Spring</a></li><li><a href="https://jw-webmagazine.com/season/summer/" title="Summer">Summer</a></li><li><a href="https://jw-webmagazine.com/season/autumn/" title="Autumn">Autumn</a></li><li><a href="https://jw-webmagazine.com/season/winter/" title="Winter">Winter</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Living <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/living/tips-for-living/" title="Tips for Living">Tips for Living</a></li><li><a href="https://jw-webmagazine.com/living/apartment/" title="Apartment">Apartment</a></li><li><a href="https://jw-webmagazine.com/living/medical-services/" title="Medical Services">Medical Services</a></li><li><a href="https://jw-webmagazine.com/living/internet/" title="Internet">Internet</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Travel Tips <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="https://jw-webmagazine.com/travel-alerts/" title="Travel Alerts">Travel Alerts</a></li><li><a href="https://jw-webmagazine.com/cultural-tips/" title="Cultural Tips">Cultural Tips</a></li><li><a href="https://jw-webmagazine.com/itinerary/" title="Itinerary">Itinerary</a></li><li><a href="https://jw-webmagazine.com/transportation/" title="Transportation">Transportation</a></li><li><a href="https://jw-webmagazine.com/japanese/" title="Japanese">Japanese</a></li><li><a href="https://jw-webmagazine.com/currency/" title="Currency">Currency</a></li><li><a href="https://jw-webmagazine.com/wifi/" title="Pocket WiFi">Pocket WiFi</a></li><li><a href="https://jw-webmagazine.com/living/" title="Living">Living</a></li></ul></div><div class="footer-links__block" style="width: 14.285714285714%"><h3 class="block_title">Others <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#918787" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg></path></svg></h3><ul class="footer-links__block__list"><li><a href="http://japan-wireless.com" title="Pocket WiFi Rental">Pocket WiFi Rental</a></li></ul><div class="jw-newsletter"><h3 class="block_title">Get Our Free Newsletter</h3><a href="https://bit.ly/3d0IaJk" class="btn" rel="noopener" target="_blank">Sign Up</a></div></div>        </section>
+    </div>
+</div>        <div class="o-container">
+            <div class="c-footer c-footer__main d-flex">
+                <div class="d-flex c-footer__logo">
+                    <a href="https://jw-webmagazine.com">
+                        <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/logo.png" class="logo-media" alt="Japan Web Magazine">
+                    </a>
+                    <a href="https://japan-wireless.com">
+                        <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/logo-wireless.png" class="logo-wireless" alt="Japan Wireless">
+                    </a>
+                </div>
+                <div class="c-footer__right">
+                    <ul class = "menu c-footer__nav"><li id="menu-item-185000" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185000"><a href="https://jw-webmagazine.com/about-us/">About us</a></li>
+<li id="menu-item-185001" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185001"><a href="https://jw-webmagazine.com/contact-us/">Contact us</a></li>
+<li id="menu-item-185002" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185002"><a href="https://jw-webmagazine.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-185003" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-185003"><a href="https://jw-webmagazine.com/terms-of-use/">Terms of Use</a></li>
+</ul>                    <ul class="c-navbar__social footer">
+
+                        <li><a href="https://www.facebook.com/Japan-Wireless-469588096424829" target="_blank" rel="noopener" class="c-navbar__social__facebook">
+                                <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_facebook_sp.png" alt="Facebook">
+                            </a></li>
+                        <li><a href="https://twitter.com/japanwireless" target="_blank" rel="noopener" class="c-navbar__social__twitter">
+                                <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_twitter_sp.png" alt="twitter">
+                            </a></li>
+                        <li><a href="https://www.instagram.com/japanwirelesstokyo/" target="_blank" rel="noopener" class="c-navbar__social__instagram">
+                                <img src="https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/images/common/ic_instagram_sp.png" alt="instagram">
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div class="o-container">
+            <p class="footer-copyright">&copy;2021 Inbound Platform Corp. All Rights Reserved</p>
+        </div>
+    </footer>
+</div><!-- #page -->
+<!-- Twitter universal website tag code -->
+<script async>
+!function(e,t,n,s,u,a){e.twq||(s=e.twq=function(){s.exe?s.exe.apply(s,arguments):s.queue.push(arguments);
+},s.version='1.1',s.queue=[],u=t.createElement(n),u.async=!0,u.src='//static.ads-twitter.com/uwt.js',
+a=t.getElementsByTagName(n)[0],a.parentNode.insertBefore(u,a))}(window,document,'script');
+// Insert Twitter Pixel ID and Standard Event data below
+twq('init','o0wrv');
+twq('track','PageView');
+</script>
+<!-- End Twitter universal website tag code --><script type='text/javascript' id='jw-magazine-app-js-extra'>
+/* <![CDATA[ */
+var admin_ajax = "https:\/\/jw-webmagazine.com\/wp-admin\/admin-ajax.php";
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/resources/scripts/app.js?ver=20201216' id='jw-magazine-app-js'></script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/assets/vendor/medium-zoom.min.js?ver=20151215' id='jw-magazine-zoom-js'></script>
+<script type='text/javascript' id='jw-magazine-singlar-js-extra'>
+/* <![CDATA[ */
+var jw_like = {"post_id":"240570","like_count":"145","nonce":"a65d768384"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/assets/js/single.js?ver=20201216' id='jw-magazine-singlar-js'></script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-content/themes/jw-magazine/assets/js/getAd.min.js?ver=20201216' id='jw-magazine-single-ad-js'></script>
+<script type='text/javascript' src='https://jw-webmagazine.com/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+
+</body>
+</html>
