@@ -59,7 +59,7 @@ ul li a:hover{
     font-style: italic;
     border-width: 3px;
     width: 100%;
-    background-color: #eee;
+    background-color: #fff;
     text-decoration:solid;
 }
 .quest::before{
