@@ -1,0 +1,69 @@
+.pic{
+    border-radius: 5% 10% 20% 40%;
+    /*             TL TR  BR  BL*/
+    border: 2px solid red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("800x300.jpg");
+    background-position: center center;
+}
+.cov{
+    
+    /*             TL TR  BR  BL*/
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("800x300.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.con{
+    
+    /*             TL TR  BR  BL*/
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("800x300.jpg");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.px{
+    
+    /*             TL TR  BR  BL*/
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("800x300.jpg");
+    background-position: center center;
+    background-size: 250px 200px;
+    background-repeat: no-repeat;
+}
+.per{
+    
+    /*             TL TR  BR  BL*/
+    border: 5px solid red;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    background-image: url("800x300.jpg");
+    background-position: center center;
+    background-size: 90% 90%;
+    background-repeat: no-repeat;
+}
+
+/*RGBA CSS*/
+.rg{
+    color: rgba(0, 1, 244, 0.5);
+    background-color: rgba( 222,111, 0, 0.1);
+}
+
+/*HlS CSS*/
+.hsl{
+    background-color: hsla( 550, 50%, 50%, 0.7);
+}
