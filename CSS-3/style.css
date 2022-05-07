@@ -132,3 +132,48 @@
     margin-bottom: 5px;
 
 }
+
+/*Text Overflow*/
+.text{
+    width: 200px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clip{ text-overflow: clip;}
+
+.ellipsis{ text-overflow: ellipsis;}
+
+/*Word Wrap*/
+.word-wrap{
+    width: 200px;
+    border: 1px solid black;
+    word-wrap: break-word;
+}
+
+/* Word Break*/
+.word-break{
+    width: 200px;
+    border: 1px solid black;
+    word-break: break-all;
+}
+
+/*Text Align Last*/
+.text-left{ text-align-last: left; text-align: justify; margin-bottom: 30px;}
+
+.text-right{ text-align-last: right; text-align: justify;  margin-bottom: 30px;}
+
+.text-center{ text-align-last: center; text-align: justify; margin-bottom: 30px;}
+
+.text-justify{ text-align-last: justify; text-align: justify; margin-bottom: 30px;}
+
+/*Custom font*/
+@font-face {
+    font-family: Nischal;
+    src: url("./fonts/Roboto.zip");
+}
+.font{
+    font-family: Nischal;
+}
