@@ -177,3 +177,56 @@
 .font{
     font-family: Nischal;
 }
+
+/*Transition*/
+.box3{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    transition: 300ms height linear,
+                300ms width linear;
+}
+.box3:hover{
+    width: 100px;
+    height: 100px;
+}
+
+/*Transition Color*/
+.transition-color{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    transition-duration: 1.5s;
+    transition-property: color;
+    transition-timing-function: linear;
+}
+.transition-color:hover{
+    color: #864acc;
+}
+
+/*Transition timing and function*/
+body{
+    background-color: gainsboro;
+}
+.parent{
+    position: relative;
+    height: 50px;
+    background-color: #fff;
+}
+.child{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    background-color: #765abc;
+    transition-duration: 3s;
+    transition-property: left;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.parent:hover .child{
+    left: calc(100% - 50px);
+}
