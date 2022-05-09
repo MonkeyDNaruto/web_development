@@ -230,3 +230,40 @@ body{
 .parent:hover .child{
     left: calc(100% - 50px);
 }
+
+/*Transform Translate*/
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: #c67780;
+    position: relative;
+    left: 20%;
+    top: 40px;
+}
+.box4::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: translate(-20px, -20px);
+}
+    
+    /*Transform Rotate*/
+.rotate{
+    height: 200px;
+    width: 200px;
+    background-color: #765abc;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    left: 45%;
+    transition: 3s all linear;
+    transition-delay: 2s;
+}
+.rotate:hover{
+    transform: rotate(720deg);
+}
