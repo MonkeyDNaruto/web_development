@@ -333,3 +333,69 @@ p.skew{
                skewX(15deg) skewY(15deg)
                translateX(30px) translateY(20px) translateZ(600px);
 }
+
+/*First Animation*/
+@keyframes firstanimation {
+    0%{
+        margin-left: 0px;
+    }
+    100%{
+        margin-left: 300px;
+    }
+}
+
+.firstanimation{
+    height: 150px;
+    width: 150px;
+    margin-top: 150px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+
+ 
+}
+.firstanimation:hover{
+    animation-name: firstanimation;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 5;
+    animation-delay: 1s;
+    animation-direction: normal;
+}
+
+/*Animation Mini-Project*/
+@keyframes identifier {
+    0%{
+        left: 0%;
+        top: 0%;
+    }
+    25%{
+        left: 0%;
+        top: calc(100%-150px);
+    }
+    50%{
+        top: calc(100%-150px);
+        left: calc(100%-150px);
+    }
+    75%{
+        right: 0%;
+        top: calc(100%-150px);
+    }
+    100%{
+        left: 0%;
+        top: 0%;
+    }
+}
+.miniproject{
+    height: 150px;
+    width: 150px;
+    left: 0%;
+    top: 0%;
+    background-color: #864acc;
+    border: 1px solid #674abc;
+
+    animation-name: identifier;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
